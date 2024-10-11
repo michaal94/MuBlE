@@ -1,0 +1,14 @@
+{
+	"dataset": "test name",
+	"properties": [
+		"colour", "material", "name"
+	],
+	"parameters": [
+		"object", "relation", "table_part", "weight_specifier"
+	],
+	"constraint_types": [
+		"UNIQUE", "NON_UNIQUE", "RELATION_UNIQUE",
+		"IS", "NOT_TP", "TP_SET", "NOT_TP_SET", "CONTAIN", "CONTAIN_TP",
+		"IS_NOT", "IN", "SCENE_UNIQUE", "SCENE_SHARE_PROP", "TP_NOT_EMPTY"
+	]
+}

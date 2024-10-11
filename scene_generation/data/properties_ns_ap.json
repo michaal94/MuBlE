@@ -1,0 +1,48 @@
+{
+  "shapes": {
+	"baking_tray1": "baking_tray1",
+    "baking_tray2": "baking_tray2",
+    "bowl1": "bowl1",
+    "bowl2": "bowl2",
+    "bowl3": "bowl3",
+    "chopping_board1": "chopping_board1",
+    "chopping_board2": "chopping_board2",
+    "chopping_board3": "chopping_board3",
+    "food_box1": "food_box1",
+    "food_box2": "food_box2",
+    "glass1": "glass1",
+    "glass2": "glass2",
+    "glass3": "glass3",
+    "glass4": "glass4",
+    "glass5": "glass5",
+    "mug1": "mug1",
+    "mug2": "mug2",
+    "mug3": "mug3",
+    "plate1": "plate1",
+    "plate2": "plate2",
+    "soda_can": "soda_can",
+    "thermos1": "thermos1",
+    "thermos2": "thermos2",
+    "wine_glass1": "wine_glass1",
+    "wine_glass2": "wine_glass2",
+    "wine_glass3": "wine_glass3"
+  },
+  "colors": {
+    "red": [173, 35, 35],
+    "blue": [42, 75, 215],
+    "green": [29, 105, 20],
+    "brown": [129, 74, 25],
+    "purple": [129, 38, 192],
+    "cyan": [41, 208, 208],
+    "yellow": [255, 238, 51]
+  },
+  "materials": {
+    "rubber": "Rubber",
+	  "plastic": "Plastic",
+	  "metal": "Metal"
+  },
+  "sizes": {
+    "bigger": 0.6,
+	  "smaller": 0.45
+  }
+}

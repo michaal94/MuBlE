@@ -1,0 +1,393 @@
+{
+    "split": "demo",
+    "image_index": 9,
+    "image_filename": "NS_AP_demo_000009.png",
+    "objects": [
+        {
+            "file": "bowl3",
+            "name": "bowl",
+            "shape": "hemisphere",
+            "size": "medium-sized",
+            "material": "plastic",
+            "3d_coords": [
+                0.6331243515014648,
+                -0.16016587615013123,
+                0.0
+            ],
+            "orientation": [
+                0.8699848651885986,
+                0.0,
+                0.0,
+                0.4930783808231354
+            ],
+            "rotation": 59.086228573804476,
+            "pixel_coords": [
+                391,
+                418,
+                0.5392022728919983
+            ],
+            "colour": "red",
+            "weight_gt": 202.3,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.10247699916362762,
+                "y": 0.10321199893951416,
+                "z": 0.05400000512599945
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": true,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "[`k4:e>7I4L3M4L2O2M3M3N1N2O2M2O1N2O1N2O1N2O1O1N2O1N101O1N2O1O2M3N1O2N1N2O1O1N101O001N10001O000O101O0000000O10001O0000000000000O100000O1000000000000O1000000O2O000O100O100O100O2N1O1O1O1N2N3M2N200O2N1O1O1O2N1O1O2N1O2N1O1O2M2O2M3N1N3M3M3M3M3L5Ioej5"
+            }
+        },
+        {
+            "file": "bowl3",
+            "name": "bowl",
+            "shape": "hemisphere",
+            "size": "medium-sized",
+            "material": "plastic",
+            "3d_coords": [
+                0.32369932532310486,
+                0.09749308973550797,
+                0.0
+            ],
+            "orientation": [
+                0.6668082475662231,
+                0.0,
+                0.0,
+                0.7452293634414673
+            ],
+            "rotation": 96.3576045261596,
+            "pixel_coords": [
+                584,
+                325,
+                0.8507373332977295
+            ],
+            "colour": "red",
+            "weight_gt": 186.9,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.10247699916362762,
+                "y": 0.10321199893951416,
+                "z": 0.05400000512599945
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": true,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "nTQ8;d>4L3M3N2M2O2N1N2O1O1O1O1N2O1O2N2N2N2N001O001O0000001O000000001O0000000000000001O000000000000001O000O10001N100O1N2N3N1O1O2N1O101N1O1O2N1O1N3N1O2M3N1M4MofX3"
+            }
+        },
+        {
+            "file": "soda_can",
+            "name": "soda can",
+            "shape": "cylindrical",
+            "size": "medium-sized",
+            "material": "metal",
+            "3d_coords": [
+                0.4839816987514496,
+                -0.09499068558216095,
+                0.0
+            ],
+            "orientation": [
+                0.5945080518722534,
+                0.0,
+                0.0,
+                0.8040896654129028
+            ],
+            "rotation": 107.04486464456009,
+            "pixel_coords": [
+                454,
+                363,
+                0.6883396506309509
+            ],
+            "colour": "red",
+            "weight_gt": 119.4,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.04757760092616081,
+                "y": 0.04747440293431282,
+                "z": 0.0828000009059906
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": false,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "giZ6S1`=>M2N3K4O101O0O2O1O001O1O1O1N2O2N:F00000000000000000001O000O1000000O2O0O1O2N1O6J3M3Lga^5"
+            }
+        },
+        {
+            "file": "food_box2",
+            "name": "food box",
+            "shape": "cylindrical",
+            "size": "small",
+            "material": "plastic",
+            "3d_coords": [
+                0.38861164450645447,
+                -0.23196429014205933,
+                0.0
+            ],
+            "orientation": [
+                0.9014226198196411,
+                0.0,
+                0.0,
+                0.43294021487236023
+            ],
+            "rotation": 51.30859627594758,
+            "pixel_coords": [
+                341,
+                340,
+                0.7806116938591003
+            ],
+            "colour": "yellow",
+            "weight_gt": 155.0,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.0773765817284584,
+                "y": 0.07820996642112732,
+                "z": 0.04725002497434616
+            },
+            "scale_factor": 0.45,
+            "stackable": false,
+            "stack_base": true,
+            "pickupable": false,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "cca48g>2L3O4M7H8I6J3L2O001N101O00000O2O000000000000000O10000000000000000000000000000000O10001O000O10000O101O0O100O2N1K6F9G;L4M4J_jn6"
+            }
+        },
+        {
+            "file": "soda_can",
+            "name": "soda can",
+            "shape": "cylindrical",
+            "size": "medium-sized",
+            "material": "metal",
+            "3d_coords": [
+                0.6873206496238708,
+                0.02505600079894066,
+                0.0
+            ],
+            "orientation": [
+                0.2692180871963501,
+                0.0,
+                0.0,
+                0.9630792140960693
+            ],
+            "rotation": 148.76451049588906,
+            "pixel_coords": [
+                620,
+                444,
+                0.4886265993118286
+            ],
+            "colour": "green",
+            "weight_gt": 122.7,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.047577597200870514,
+                "y": 0.04747439920902252,
+                "z": 0.0828000009059906
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": false,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "knd8h0[=o0ROm0L4N2M3N2M4I6N2O1N2O001N101O001O00001O0O101O0000001O00000001O00000000000000001O000000000O2O000O101N100N3N101N1O2O0O2N4mLSDk2T<F:YOg0YOg0ZO^ei2"
+            }
+        }
+    ],
+    "directions": {
+        "behind": [
+            -0.9998477697372437,
+            0.017452329397201538,
+            0.0
+        ],
+        "front": [
+            0.9998477697372437,
+            -0.017452329397201538,
+            -0.0
+        ],
+        "left": [
+            -0.017452297732234,
+            -0.9998476505279541,
+            0.0
+        ],
+        "right": [
+            0.017452297732234,
+            0.9998476505279541,
+            -0.0
+        ],
+        "above": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "below": [
+            -0.0,
+            -0.0,
+            -1.0
+        ]
+    },
+    "camera_params": {
+        "position": [
+            1.1496347188949585,
+            -0.1398545801639557,
+            0.22131800651550293
+        ],
+        "rotation": [
+            83.00000117132056,
+            0.0,
+            89.00000133828577
+        ],
+        "rotation_mode": "EulerXYZ"
+    },
+    "lamp_params": {
+        "Lamp_Key": [
+            3.2145612239837646,
+            -2.0968713760375977,
+            2.140490770339966
+        ],
+        "Lamp_Back": [
+            -1.8204678297042847,
+            2.0393898487091064,
+            2.2384274005889893
+        ],
+        "Lamp_Fill": [
+            -2.434860944747925,
+            -3.0555059909820557,
+            2.5593695640563965
+        ]
+    },
+    "table": {
+        "mask": {
+            "size": [
+                480,
+                848
+            ],
+            "counts": "oTS11n>1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1000000O10cJPHj3P8ULRHj3n7SLUHm3k7RLYHk3g7UL`Hd3`7[LhH^3X7bLnHX3R7hLQIU3o6jLSIU3m6kLSIU3m6kLTIT3l6kLUIU3k6kLVIT3j6lLVIT3j6lLVIT3j6lLVIT3j6kLXIT3h6lLXIT3h6lLXIT3h6lLXIT3h6lLXIT3h6lLXI_OjNj2n7gMXI^OQOe2g7mMXI]OUOc2c7PNXI\\OXOb2`7QNYI\\O[O`2\\7TNYI[O]O`2Z7UNYI[O_O^2X7WNYIZOB]2U7YNYIYOE\\2R7[NYIYOF[2Q7\\NYIXOH[2o6]NYIXOJY2m6_NYIWOLY2k6`NYIWOMX2j6aNYIVOOX2h6bNYIVO0W2g6cNYIUO2W2e6dNYIUO3V2d6eNYITO5V2b6fNYITO6U2a6gNXIUO8S2`6hNXITO:S2^6iNXITO;R2]6kNWIRO=S2\\6kNWIRO>R2[6lNVISO`0P2Z6mNVIROb0P2X6nNVIROc0o1W6oNUISOf0l1U6QOUIROi0k1R6TOTIQOk0j1Q6UOSIROn0g1o5WOSIROo0f1n5XORIROR1e1l5ZOPIROU1c1k5[OkHWO[1]1j5]OaH^Of1U1i5]OXHGP2k0h5@THGT2i0h5BQHFX2g0g5FkGE_2e0f5j0ZJVOf5j0[JUOe5k0[JUOe5k0[JUOe5j0\\JVOd5j0]JUOc5k0]JUOc5k0]JUOc5k0]JUOc5k0]JUOc5j0^JVOb5j0^JVOb5j0_JUOa5k0_JUOa5k0_JUOa5k0_JUOa5k0_JUOa5k0_JUOa5k0_JUOa5k0_JUOa5j0`JVO`5j0`JVO`5j0`JVO`5j0_JWOa5i0_JWOa5i0_JWOa5i0_JWOa5i0_JWOa5i0_JWOa5i0_JWOa5i0^JXOb5h0^JXOb5h0^JXOb5h0^JXOb5h0]JYOc5h0\\JXOd5h0\\JXOd5h0[JYOe5g0[JYOe5g0ZJZOf5f0ZJZOf5f0YJ[Og5e0YJ[Og5e0XJ\\Oh5e0VJ\\Oj5d0UJ]Ok5c0TJ^Ol5b0SJ_Om5a0QJAo5?oICQ6>lIDT6<jIFV6:jIFV6:iIGW6:gIGY69fIHZ68eII[67dIJ\\67bIJ^66aIK_6ROcJo0]5dNoJ]1Q5aNPK`1P5^NQKc1o4YNTKh1l4mMkGHY3\\2l4iMnGKT3^2n4fMoGLR3_2o4dMQHKo2c2P5aMRHLm2d2Q5_MSHMj2f2S5[MUHOf2h2U5XMVH0c2j2W5UMWH1`2l2[5PMVH4]2n2n5QMPJR3Q6mLjIX3V6hLeI]3[6cLeI]3[6cLeI]3[6cLeI]3[6cLeI]3\\6bLdI^3\\6bLdI^3\\6bLdI^3\\6bLdI^3]6aLcI_3]6aLcI_3]6bLbI^3^6bLbI^3^6bLaI_3_6aLaI_3`6`L`I`3`6`L`I`3`6`L_Ia3a6`L^I`3b6`L]Ia3c6_L\\Ib3d6_LZIb3f6^LYIc3g6bLSI_3n6bLoH_3Q7cLkH_3U7V20000000000000000000000000000000000000000000000000000000000000000O1000000000000O100000000O10000O10000O1]ORJTHn5l7TJRHl5n7UJQHk5o7UJQHk5o7VJPHj5P8VJPHj5P8WJnGj5R8VJnGj5R8WJmGi5S8b000000000000000000000000nISHQ5m7nJWHo4i7PKZHn4f7QK]Hm4c7SK_Hk4a7TKaHk4_7UKcHi4]7WKdHh4\\7WKfHh4Z7XKgHg4Y7YKhHf4X7ZKiHe4W7[KjHd4V7[KlHd4S7]KnHb4R7^KPI`4P7`KRI^4n6bKTI\\4l6dKVIZ4j6fKVIZ4j6fKWIY4i6gKWIY4i6gKXIX4h6hKXIX4h6hKXIX4h6hKXIX4h6hKYIW4g6iKYIW4g6iKYIW4g6iKYIW4g6iKYIW4g6iKZIV4f6jKZIV4f6jKZIV4f6jKZIV4f6jKZIV4f6jKZIV4f6jKZIV4f6jKZIV4f6jKZIV4f6kKYIU4g6kKYIU4g6kKYIP2XOkN_7UOYIS17F`6WOYI7T1a0c5XOYI4X1c0_5YOYI3Z1c0]5ZOYI1]1d0Z5\\OXIO`1d0X5]OXIMd1d0T5_OWIIk1g0n4@WIHm1g0l4AWIHn1f0k4CUIGR2e0i4DUIGR2e0i4DTIHT2c0h4ERIIW2b0g4EPIKZ2?f4GnHK\\2>f4GmHL^2<e4HlHM_2;e4IjHMa2:e4IiHNc28d4JiHNc28d4KgHMf28c4KfHNh26b4LeHOi25b4McHOk24b4MbH0l23b4M`H2o20a4O^H2Q3Oa4O]H3R3Na40ZH4U3La41XH4W3Ka41UH8Y3Gb42RH9\\3Eb4`1^K`Nb4`1^K`Nb4`1^K`Nb4`1^K`Nb4`1^K`Nb4`1^K`Nb4`1^K`Nb4a1]K_Nc4a1]K_Nc4a1]K_Nc4a1]K_Nc4a1]K_Nc4a1\\K`Nd4a1[K_Ne4a1[K_Ne4a1ZK`Nf4`1ZK`Nf4a1XK`Nh4`1XK`Nh4`1VKbNj4_1TKbNl4^1TKbNl4_1RKbNn4^1QKcNo4^1PKbNQ5]1nJdNR5]1lJdNT5_1iG_Mk2T1\\5b1ZJfNf5\\1cIYO]6i0lHLU75UH?k7[31O00001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+        }
+    },
+    "robot": {
+        "mask": {
+            "size": [
+                480,
+                848
+            ],
+            "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2ZGXNR4i1jKZNV4g1hKZNX4g1fK[NX4g1fKZNZ4g1dKZN\\4g1aK[N_4f1lJSNQM8S8g1fJVNUM4T8h1dJWNnLI09^8h1cJVNoL:^8b1_JPO`5R1[JQOe5Q1XJPOh5R1TJPOk5S1RJnNn5T1oImNQ6V1kIlNT6X1gIiNY6\\1`IfN`6c1SIaNm6j4`NgIWJY6o4eJmJ[5S5gJkJY5U5hJjJX5V5iJiJW5W5jJhJW5W5iJiJW5W5iJiJW5W5jJhJV5X5jJhJV5X5kJgJU5Y5lJfJT5Z5lJfJT5Z5mJeJS5[5nJdJS5[5mJeJS5[5nJdJR5\\5nJdJR5\\5oJcJQ5]5oJcJQ5]5PKbJP5^5PKbJP5^5QKaJo4_5QKaJo4_5RK`Jn4`5RK`Jn4`5SK_J9C_2n5YM^J2If2i5XM^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+        }
+    },
+    "relationships": {
+        "behind": [
+            [
+                1,
+                2,
+                3
+            ],
+            [],
+            [
+                1,
+                3
+            ],
+            [
+                1
+            ],
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "front": [
+            [
+                4
+            ],
+            [
+                0,
+                2,
+                3,
+                4
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                2,
+                4
+            ],
+            []
+        ],
+        "left": [
+            [
+                3
+            ],
+            [
+                0,
+                2,
+                3,
+                4
+            ],
+            [
+                0,
+                3
+            ],
+            [],
+            [
+                0,
+                2,
+                3
+            ]
+        ],
+        "right": [
+            [
+                1,
+                2,
+                4
+            ],
+            [],
+            [
+                1,
+                4
+            ],
+            [
+                0,
+                1,
+                2,
+                4
+            ],
+            [
+                1
+            ]
+        ]
+    }
+}

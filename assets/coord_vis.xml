@@ -1,0 +1,11 @@
+<mujoco model="coordinate_system">
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom pos="0 0 0" type="cylinder" size="0.0025 0.1" fromto="0 0 0 0 0 0.1" rgba="1 0 0 1" conaffinity="0" contype="0" group="1" mass="0.0001"/>
+        <geom pos="0 0 0" type="cylinder" size="0.0025 0.1" fromto="0 0 0 0 0.1 0" rgba="0 1 0 1" conaffinity="0" contype="0" group="1" mass="0.0001"/>
+        <geom pos="0 0 0" type="cylinder" size="0.0025 0.1" fromto="0 0 0 0.1 0 0" rgba="0 0 1 1" conaffinity="0" contype="0" group="1" mass="0.0001"/>
+      </body>
+    </body>
+  </worldbody>
+</mujoco>

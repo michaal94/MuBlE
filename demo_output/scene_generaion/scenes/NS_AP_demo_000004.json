@@ -1,0 +1,393 @@
+{
+  "split": "demo",
+  "image_index": 4,
+  "image_filename": "NS_AP_demo_000004.png",
+  "objects": [
+    {
+      "file": "plate2",
+      "name": "plate",
+      "shape": "flat",
+      "size": "small",
+      "material": "ceramic",
+      "3d_coords": [
+        0.3417768180370331,
+        -0.3111647665500641,
+        0.0
+      ],
+      "orientation": [
+        0.6769157648086548,
+        0.0,
+        0.0,
+        0.7360605001449585
+      ],
+      "rotation": 94.7938059427221,
+      "pixel_coords": [
+        287,
+        330,
+        0.8257184028625488
+      ],
+      "colour": "purple",
+      "weight_gt": 201.8,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.11839264631271362,
+        "y": 0.11839264631271362,
+        "z": 0.007628209888935089
+      },
+      "scale_factor": 0.45,
+      "stackable": false,
+      "stack_base": true,
+      "pickupable": false,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "VYa34k>2N2N101N101N100O2O000O101O0O10001O0O10001O000O1000001O00000O10000000000000000O100000000000000000O100000000000000O10000000000O1000000O2O000O10000O10001N100O101O0O100O2O0O2N101N2MQQb7"
+      }
+    },
+    {
+      "file": "food_box1",
+      "name": "food box",
+      "shape": "irregularly shaped",
+      "size": "medium-sized",
+      "material": "plastic",
+      "3d_coords": [
+        0.6155863404273987,
+        -0.19232384860515594,
+        0.0
+      ],
+      "orientation": [
+        0.9975136518478394,
+        0.0,
+        0.0,
+        0.07047372311353683
+      ],
+      "rotation": 8.08239344394929,
+      "pixel_coords": [
+        356,
+        410,
+        0.5560498833656311
+      ],
+      "colour": "white",
+      "weight_gt": 232.2,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.11950399726629257,
+        "y": 0.1289270967245102,
+        "z": 0.06320998817682266
+      },
+      "scale_factor": 0.6,
+      "stackable": false,
+      "stack_base": true,
+      "pickupable": false,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "mRT44g>6K5M3M:G5L1N7J1M2M4M2O1O101N1000000O2M3N2M3M4M2M3M3N2M4M2N1O2O001N10001N10001O0O101O0O2O00000000000O100000000000000000000000O1000000000000000000000O100000O10000000000000000000000000000O10000000000000001O0000000O2O000O100O2N100O2O2M2O2M3N1N3M3M2N3M2M2O1O1N3N1O1N3N101O1O1O1N3N2N1O2M3N3M2M3N2M3N2M3N2M4LoTR6"
+      }
+    },
+    {
+      "file": "bowl3",
+      "name": "bowl",
+      "shape": "hemisphere",
+      "size": "medium-sized",
+      "material": "ceramic",
+      "3d_coords": [
+        0.4739758372306824,
+        0.028407853096723557,
+        0.0
+      ],
+      "orientation": [
+        0.7505695223808289,
+        0.0,
+        0.0,
+        0.6607914566993713
+      ],
+      "rotation": 82.72052575959857,
+      "pixel_coords": [
+        561,
+        360,
+        0.7004069685935974
+      ],
+      "colour": "brown",
+      "weight_gt": 187.5,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.10247699916362762,
+        "y": 0.10321199893951416,
+        "z": 0.05400000512599945
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": true,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "XeY86R=2PD<P<Z10000000O101O00000O10001N100O1O2M2O1N2N3O0O1O2N100O2N1O1O2N1O2N1O2M2O2M3N2M2N4K4KUg_3"
+      }
+    },
+    {
+      "file": "glass2",
+      "name": "glass",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "glass",
+      "3d_coords": [
+        0.6704394221305847,
+        -0.040077049285173416,
+        0.0
+      ],
+      "orientation": [
+        0.5770925283432007,
+        0.0,
+        0.0,
+        0.8166787624359131
+      ],
+      "rotation": 109.50739390685455,
+      "pixel_coords": [
+        535,
+        435,
+        0.5042511820793152
+      ],
+      "colour": "transparent",
+      "weight_gt": 74.4,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.048578545451164246,
+        "y": 0.048578545451164246,
+        "z": 0.1170000433921814
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "Qo]7U1T2nNU9d1^FeNV9l1_FYNW9W2]FnMa9\\2QFjMn9e3O1N2O001O0O2O001O00001O00000O2O0000000000001O0000000001O000000000O10000000001N10000O101N100O1O2cNWF`Mj9X2cFbM^9Y2lF`MW9Y2k1K6J6If0ROfnR4"
+      }
+    },
+    {
+      "file": "thermos2",
+      "name": "thermos",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "plastic",
+      "3d_coords": [
+        0.4094364047050476,
+        -0.11546050012111664,
+        0.0
+      ],
+      "orientation": [
+        0.2974233329296112,
+        0.0,
+        0.0,
+        0.9547457098960876
+      ],
+      "rotation": 145.39418681354007,
+      "pixel_coords": [
+        433,
+        344,
+        0.761963427066803
+      ],
+      "colour": "green",
+      "weight_gt": 231.1,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.07022799551486969,
+        "y": 0.05168713256716728,
+        "z": 0.10526348650455475
+      },
+      "scale_factor": 0.6,
+      "stackable": false,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "b^P6n0Q>:D6C:O10>B>A3N001O00001O0000000O2O0000000000000000000001O0O100000000O10000O2N1I7B?_Oh0gNe^h5"
+      }
+    }
+  ],
+  "directions": {
+    "behind": [
+      -0.9998477697372437,
+      0.017452329397201538,
+      0.0
+    ],
+    "front": [
+      0.9998477697372437,
+      -0.017452329397201538,
+      -0.0
+    ],
+    "left": [
+      -0.017452297732234,
+      -0.9998476505279541,
+      0.0
+    ],
+    "right": [
+      0.017452297732234,
+      0.9998476505279541,
+      -0.0
+    ],
+    "above": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "below": [
+      -0.0,
+      -0.0,
+      -1.0
+    ]
+  },
+  "camera_params": {
+    "position": [
+      1.1496347188949585,
+      -0.1398545801639557,
+      0.22131800651550293
+    ],
+    "rotation": [
+      83.00000117132056,
+      0.0,
+      89.00000133828577
+    ],
+    "rotation_mode": "EulerXYZ"
+  },
+  "lamp_params": {
+    "Lamp_Key": [
+      3.2686266899108887,
+      -2.105588436126709,
+      2.180081605911255
+    ],
+    "Lamp_Back": [
+      -1.9060138463974,
+      1.9892423152923584,
+      2.2422287464141846
+    ],
+    "Lamp_Fill": [
+      -2.3661465644836426,
+      -3.000009298324585,
+      2.5801854133605957
+    ]
+  },
+  "table": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "oTS11n>1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1OWKPFd4o9\\KSFc4l9]KVFb4i9^KXFb4g9_KZF`4e9`K\\F`4c9aK^F^4a9bK`F^4`9bK`F^4_9bKcF]4\\9dKdF\\4[9eKeF[4Z9eKgF[4X9fKiFY4V9hKjFX4U9hKlFX4S9iKmFW4R9jKoFU4P9lKPGT4o8lKRGT4m8mKSGS4m8mKTGR4k8oKUGQ4j8PLVGP4i8PLXGP4g8QLYGo3f8RLZGn3e8SL\\Gl3c8UL]Gk3b8VL^Gj3a8WL_Gi3`8WLaGi3^8XLbGh3]8YLcGg3\\8ZLdGf3\\8ZLdGf3[8[LeGe3Z8\\LfGd3Y8]LgGc3X8^LhGb3W8^LjG?[Oe1j8mMkG9Ai1c8oMlG4Fl1]8QNmG1Im1Y8SNnGN3g1n7\\NoGL8d1h7aNPHK9c1f7cNQHI`0^1_7iNQHIa0]1]7kNQHGd0^1Z7lNRHCh0`1U7nNSH@j0b1R7oNTH^Ok0c1P7POUH\\Ol0d1n6QOVH[Om0c1l6SOWHYOn0d1j6TOXHXOn0d1i6UOXHXOo0c1h6VOYHWOo0c1g6WOZHUOQ1c1e6XOZHSOT1d1a6ZO[HQOV1d1^6\\O\\HnNY1e1Z6^O\\HlN^1d1U6A]HjN`1d1S6B]HhNc1e1P6C]HfNf1f1m5D\\HfNi1e1j5G\\HbNn1e1f5I\\HaNP2e1d5J[HaNR2e1c5J[H`NT2e1a5K[H`NT2e1a5KZHaNV2c1`5LZH`NW2d1_5LZH`NW2d1_5MXH`NZ2b1^5NXH_N[2c1]5NWH`N\\2b1]5NWH`N]2a1\\50VH_N^2a1\\50UH_N`2a1[50UH_Na2`1Z51TH`Nb2_1Z52SH^Ne2_1X53RH_Nf2^1X54PH_Nh2]1X54PH_Nh2]1X55nG_Nj2\\1X56kG`Nm2Z1X5b0hJ^OX5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0iJ_OW5a0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5`0hJ@X5?iJAW5?iJAW5?iJAW5?hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>hJBX5>gJCY5=gJCY5=gJCY5=gJCY5=gJCY5=gJCY5=gJCY5=gJCY5=gJCY5>fJBZ5>fJBZ5>fJBZ5>fJBZ5>eJC[5>dJB\\5>dJB\\5>cJC]5=cJC]5=bJD^5=`JD`5<`JD`5<_JEa5<^JDb5>[JCe5>ZJBf5`0WJAi5a0UJ_Ok5b0SJ_Om5c0PJ^OP6d0mI]OS6d0kI]OU6e0hI\\OX6e0eI]O[6c0dI^O\\6b0cI_O]6a0aIA_6RNfHV1i0i0a6PNPIn0>S1b6lMVIn06X1X8iNfGX1Z8hNfGX1h8[NWGe1W9nMhFR2Z9mMeFS2[9nMcFS2^9nM`FR2`9PN^FP2b9QN]Fo1d9RNYFo1g9SNWFm1i9VNTFj1l9XNQFi1o9YNoEg1R:ZNkEg1U:[NiEe1W:]NfEd1Z:^NdEb1\\:`NaEa1_:bN]E_1c:_1000000000000O100000000O10000O1O1I7B>@`0XOh01O0000001O00000000001O00000000000000001O0000000000000000000000000000000000000000000000000000000000000000000QKUHS1nN_Ol8TOhHP1eNIc8nNYIn0YN2^8hNiIj0nM=Y8hNSJ=jMj0S8iNbKV1^4jNcKU1]4jNeKU1Z4lNfKT1Z4lNgKS1Y4mNgKS1Y4lNiKS1W4mNiKS1V4nNkKQ1U4oNkKQ1U4oNkKQ1T4POmKo0S4QOmKo0S4QOmKo0R4ROnKn0_3ROTHO_4n0]3UORHMa4n0]3VOQHLb4n0]3VOQHLb4n0]3WOPHKc4n0]3WOPHKc4n0]3XOnGKe4m0]3XOnGKf4l0\\3ZOmGJg4l0\\3FdL:\\3FdL:\\3FdL:\\3FdL:\\3GcL9]3GcL9]3GcL9]3GcL9]3GcL9]3GbL:^3FbL:^3FbL:^3FbL:^3FbL:^3FbL:^3G`L:`3F`L:`3F`L:`3F_L;a3E_L;a3F]L;c3E]L;c3E\\L<d3D[L=e3DnJH`Me0b7CfJ5bM9g7CbJ>`M1n7B[JY2e5gMVJ^2j5cMPJb2P6_MoIa2Q6gMgIY2Y6gMgIY2Y6gMgIY2Y6gMgIY2Y6gMgIY2Y6gMfIZ2Z6fMfIZ2Z6gMeIY2[6gMeIY2[6gMeIY2[6gMdIZ2\\6fMdIZ2\\6fMdIZ2\\6gMbIZ2^6fMbIZ2^6fMaI[2_6eM`I\\2`6eM]I]2c6cM\\I^2d6bMZI`2f6`MXIb2h6_MWIa2i6_MVIb2j6^MUIc2k6^MSIc2m6]MSIc2m6]MRId2n6]MPId2P7\\MoHe2Q7[MnHf2R7[MlHf2T7ZMkHg2U7ZMiHg2W7YMhHh2X7YMeHi2[7WMdHj2\\7WMaHk2_7VM_Hk2a7VM\\Hl2d7TMZHn2f7TMUHo2k7RMPHR3P8o10000000000000000000000000000000000000000000000000000000000000000000000000000001O00000000001O001O00001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+    }
+  },
+  "robot": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2O1O1O1N2O1O1O1^FSNo5o1kIVNS6l1jIWNU6j1jIVNV6l1fIVNZ6l1aIXN^6j1_IWNa6k1[IWNd6l1YIVNf6l1WI]NkMWOV8_2kIlNT6X1gIiNY6\\1`IfN`6c1SIaNm6j4`NgIWJY6o4eJmJ[5S5gJkJY5U5hJjJX5V5iJiJW5W5jJhJW5W5iJiJW5W5iJiJW5W5jJhJV5X5jJhJV5X5kJgJU5Y5lJfJT5Z5lJfJT5Z5mJeJS5[5nJdJS5[5mJeJS5[5nJdJR5\\5nJdJR5\\5oJcJQ5]5oJcJQ5]5PKbJP5^5PKbJP5^5QKaJo4_5QKaJo4_5RK`Jn4`5RK`Jn4`5SK_J9C_2n5YM^J2If2i5XM^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+    }
+  },
+  "relationships": {
+    "behind": [
+      [],
+      [
+        0,
+        2,
+        4
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0
+      ]
+    ],
+    "front": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "left": [
+      [],
+      [
+        0
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "right": [
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [],
+      [
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  }
+}

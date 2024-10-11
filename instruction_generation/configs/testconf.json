@@ -1,0 +1,9 @@
+{
+	"metadata": "configs\\metadata.json",
+	"input_scene_file": "C:\\Users\\mn3216\\Desktop\\SAMPLE_HD\\train\\scenes_train.json",
+	"template_dir": "templates\\templates_iccv",
+	"start_idx": 2,
+	"num_scenes": 1,
+	"instructions_per_template": 1,
+	"output_instruction_file": "outputs\\instructions_test.json"
+}

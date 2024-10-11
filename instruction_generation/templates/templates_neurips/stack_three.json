@@ -1,0 +1,109 @@
+[
+	{
+		"text": [
+			"Stack the <OBJ1> on [top of] the <OBJ2> on [top of] the <OBJ3>.",
+			"Place the <OBJ1> on [top of] the <OBJ2> on [top of] the <OBJ3>."
+		],
+		"parameters": [
+			{
+				"name": "<OBJ1>",
+				"type": "object"
+			},
+			{
+				"name": "<OBJ2>",
+				"type": "object"
+			},
+			{
+				"name": "<OBJ3>",
+				"type": "object"
+			}
+		],
+		"constraints": [
+			{
+				"target": [
+					"<OBJ1>"
+				],
+				"type": "UNIQUE"
+			},
+			{
+				"target": [
+					"<OBJ1>",
+					"stackable"
+				],
+				"type": "IS"
+			},
+			{
+				"target": [
+					"<OBJ2>"
+				],
+				"type": "UNIQUE"
+			},
+			{
+				"target": [
+					"<OBJ2>",
+					"stack_base"
+				],
+				"type": "IS"
+			},
+			{
+				"target": [
+					"<OBJ2>",
+					"stackable"
+				],
+				"type": "IS"
+			},
+			{
+				"target": [
+					"<OBJ3>"
+				],
+				"type": "UNIQUE"
+			},
+			{
+				"target": [
+					"<OBJ3>",
+					"stack_base"
+				],
+				"type": "IS"
+			}
+		],
+		"program": [
+			{
+				"type": "scene",
+				"input": null,
+				"input_values": null
+			},
+			{
+				"type": "filter_object",
+				"input": -1,
+				"input_values": "<OBJ1>"
+			},
+			{
+				"type": "scene",
+				"input": null,
+				"input_values": null
+			},
+			{
+				"type": "filter_object",
+				"input": -1,
+				"input_values": "<OBJ2>"
+			},
+			{
+				"type": "scene",
+				"input": null,
+				"input_values": null
+			},
+			{
+				"type": "filter_object",
+				"input": -1,
+				"input_values": "<OBJ3>"
+			},
+			{
+				"type": "stack",
+				"input": -1,
+				"input_values": null
+			}
+		],
+		"task_id": "stack",
+		"template_id": "stack_three"
+	}
+]

@@ -1,0 +1,393 @@
+{
+    "split": "demo",
+    "image_index": 3,
+    "image_filename": "NS_AP_demo_000003.png",
+    "objects": [
+        {
+            "file": "bowl3",
+            "name": "bowl",
+            "shape": "hemisphere",
+            "size": "medium-sized",
+            "material": "plastic",
+            "3d_coords": [
+                0.4769776165485382,
+                -0.260715126991272,
+                0.0
+            ],
+            "orientation": [
+                0.9975584149360657,
+                0.0,
+                0.0,
+                0.06983742117881775
+            ],
+            "rotation": 8.009298267191916,
+            "pixel_coords": [
+                307,
+                362,
+                0.6924197673797607
+            ],
+            "colour": "green",
+            "weight_gt": 203.3,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.10247701406478882,
+                "y": 0.10321200639009476,
+                "z": 0.05400000512599945
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": true,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "mWi37g>7K4K3N3L2O2M3N1O1O1O1N2O1O1O1O1O1O1O1O001N2O2N2N1O2N1O001O001O00000O101O0000000000000000000O10000000000000O10000000000O01000O10000O100O1O100N2N2N2N2O1O1O1O1O1O2N1O1O1N2O1O2M2O1N3M2M4L4J]VX7"
+            }
+        },
+        {
+            "file": "food_box2",
+            "name": "food box",
+            "shape": "cylindrical",
+            "size": "small",
+            "material": "plastic",
+            "3d_coords": [
+                0.5478017330169678,
+                0.037896521389484406,
+                0.0
+            ],
+            "orientation": [
+                0.5067479014396667,
+                0.0,
+                0.0,
+                0.8620942831039429
+            ],
+            "rotation": 119.1050964846396,
+            "pixel_coords": [
+                587,
+                382,
+                0.6273068785667419
+            ],
+            "colour": "blue",
+            "weight_gt": 160.7,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.077376589179039,
+                "y": 0.07820998132228851,
+                "z": 0.04725002497434616
+            },
+            "scale_factor": 0.45,
+            "stackable": false,
+            "stack_base": true,
+            "pickupable": false,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "dVQ88f>4L3M2O:F;F9F4M2N0O2O1O001N101O001O00001N10001O000000001O00000000001O0000000001O0000000000000000001O000000001O000O10001O000O101N100O2O0O2M2K6I6J7J6I7N2N4L3LYXW3"
+            }
+        },
+        {
+            "file": "plate2",
+            "name": "plate",
+            "shape": "flat",
+            "size": "small",
+            "material": "ceramic",
+            "3d_coords": [
+                0.6953135132789612,
+                -0.20033416152000427,
+                0.0
+            ],
+            "orientation": [
+                0.997917115688324,
+                0.0,
+                0.0,
+                0.06450916826725006
+            ],
+            "rotation": 7.397342362224268,
+            "pixel_coords": [
+                336,
+                451,
+                0.47679024934768677
+            ],
+            "colour": "cyan",
+            "weight_gt": 205.0,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.11839266121387482,
+                "y": 0.11839266121387482,
+                "z": 0.007628209888935089
+            },
+            "scale_factor": 0.45,
+            "stackable": false,
+            "stack_base": true,
+            "pickupable": false,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "Pmh36f>7K4M3L3N2N2N2N2N2N1O2N2O0O2N101N1O2O0O2O0O2O0O101N100O2O000O2O0O10001N10000O101O0O1000000O2O00000O100000000O100000000O1000000000000O1000000000000000000O100000000000000000000000O1000000000000O1000001O0O1000000O1000000O2O00000O10001N10000O101O0O100O2O000O2O0O101N100O2O0O2O0O2N101N1O2O1N1O2N2N1O2N2N2N3M2M4L4L^n[6"
+            }
+        },
+        {
+            "file": "bowl1",
+            "name": "bowl",
+            "shape": "hemisphere",
+            "size": "medium-sized",
+            "material": "glass",
+            "3d_coords": [
+                0.42978349328041077,
+                -0.08892707526683807,
+                0.0
+            ],
+            "orientation": [
+                0.8420276045799255,
+                0.0,
+                0.0,
+                0.5394344925880432
+            ],
+            "rotation": 65.29029720676667,
+            "pixel_coords": [
+                456,
+                349,
+                0.7422307133674622
+            ],
+            "colour": "transparent",
+            "weight_gt": 174.6,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.09634582698345184,
+                "y": 0.09634581953287125,
+                "z": 0.05359525978565216
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": true,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "bYS6>`>6K4L4M2M3N1O2M2O1O2N1N2O1O1O2N0O2O1O1O1O00001O000O2O000000001O000000000000000000000000000000000001N100000000O10000O101N1O1O100O2M2O1O1O1O2N1N2O2M2O2M2N3M3K6JafT5"
+            }
+        },
+        {
+            "file": "bowl2",
+            "name": "bowl",
+            "shape": "hemisphere",
+            "size": "small",
+            "material": "ceramic",
+            "3d_coords": [
+                0.31978264451026917,
+                -0.32928264141082764,
+                0.0
+            ],
+            "orientation": [
+                0.9416207075119019,
+                0.0,
+                0.0,
+                0.3366755545139313
+            ],
+            "rotation": 39.348918436973655,
+            "pixel_coords": [
+                277,
+                326,
+                0.8472314476966858
+            ],
+            "colour": "white",
+            "weight_gt": 134.8,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.07368434965610504,
+                "y": 0.07368435710668564,
+                "z": 0.04050000011920929
+            },
+            "scale_factor": 0.45,
+            "stackable": true,
+            "stack_base": true,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "[_e39f>7J3L3N2M2O1O1OISB\\Ok=c0:00O100O010O100000000O0100000000000000000O1000000000000000000000000O10001O000000001O001O001Nhhm7"
+            }
+        }
+    ],
+    "directions": {
+        "behind": [
+            -0.9998477697372437,
+            0.017452329397201538,
+            0.0
+        ],
+        "front": [
+            0.9998477697372437,
+            -0.017452329397201538,
+            -0.0
+        ],
+        "left": [
+            -0.017452297732234,
+            -0.9998476505279541,
+            0.0
+        ],
+        "right": [
+            0.017452297732234,
+            0.9998476505279541,
+            -0.0
+        ],
+        "above": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "below": [
+            -0.0,
+            -0.0,
+            -1.0
+        ]
+    },
+    "camera_params": {
+        "position": [
+            1.1496347188949585,
+            -0.1398545801639557,
+            0.22131800651550293
+        ],
+        "rotation": [
+            83.00000117132056,
+            0.0,
+            89.00000133828577
+        ],
+        "rotation_mode": "EulerXYZ"
+    },
+    "lamp_params": {
+        "Lamp_Key": [
+            3.290231227874756,
+            -2.055861711502075,
+            2.1927459239959717
+        ],
+        "Lamp_Back": [
+            -1.84297776222229,
+            1.9726474285125732,
+            2.252694845199585
+        ],
+        "Lamp_Fill": [
+            -2.377972364425659,
+            -2.9725699424743652,
+            2.561448335647583
+        ]
+    },
+    "table": {
+        "mask": {
+            "size": [
+                480,
+                848
+            ],
+            "counts": "oTS11n>1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O12N2N2N1O1O1oNRFnLo9m2XFPMl9j2XFTMl9g2WFWMk9e2XFZMk9b2WF]Mj9a2XF^Mj9_2XF`Mj9]2XFbMi9\\2YFcMh9[2YFeMh9Y2ZFfMg9X2[FgMf9X2ZFhMg9V2[FiMf9U2[FkMf9T2[FkMf9S2[FmMi7HhHY2AnMg7IiHX2@oMf7JkHU2APNc7LlHT2APNb7MnHQ2BQN_7OPIo1ARN^70SIk1@UN\\71VIh1_OVNZ73XIe1_OXNX74[Ib1]OZNW75]I_1^O[NT77^I^1^O[NS78`I\\1]O\\NR79aIZ1_O\\NP7:bIY1^O]No6;cIW1_O^Nm6<dIV1_O^Nl6=eIU1@]Nj6?fIS1A^Nh6`0hIQ1@_Ng6a0iIP1@_Nf6c0iIm0B`Nd6d0jIl0C_Nb6f0kIk0C_Na6g0lIi0D`N_6h0mIh0D`N_6i0lIg0E`N^6j0mIf0E`N]6l0mIc0R8^OnGb0Q8@nG`0R8KcG5]8KcG4^8LbG4]8McG3]8McG3]8McG3]8MbG3_8MaG3_8MaG3_8MaG3_8MaG3_8MaG2`8N_G3a8L`G4`8L`G4`8L_G5a8K_G5a8K_G5a8K^G5c8K]G5c8K\\G6d8J[G7e8I[G7e8IYG9g8GWG;i8EUG=k8CSG?m8ARG`0n8@QG`0P9@oFa0Q9_OnFb0R9^OmFc0S9]OlFd0T9]OjFd0V9\\OiFe0W9[OhFf0X9ZOfFh0Z9XOeFi0[9WOdFj0\\9WOaFk0_9UO`Fl0W1hMT6\\1cHn0Y1fMT6]1`Ho0\\1dMT6]1]HR1_1aMT6^1YHT1c1^MT6_1SHX1i1YMT6b4lI^KT6b4kI_KU6a4kI_KU6a4kI_KU6a4kI_KU6b4jI^KV6b4iI_KW6a4iI_KW6a4iI_KW6a4iI_KW6a4hI`KX6`4hI`KX6`4hI`KX6`4hI`KX6`4gIaKY6`4fI`KZ6`4fI`KZ6`4fI`KZ6`4eIaK[6_4eIaK[6_4eIaK[6`4cIaK]6_4cIaK]6_4cIaK]6_4bIbK^6^4bIbK^6_4aIaK_6_4`IbK`6^4`IbK`6^4_IcKa6^4^IbKb6^4^IbKb6^4]IcKc6^4\\IbKd6^4[IcKe6]4[IcKe6^4YIcKg6]4YIcKg6]4XIdKh6]4WIcKi6]4VIdKj6]4UIcKk6]4TIdKl6]4RIdKn6\\4RIdKn6]4PIdKP7\\4oHeKQ7\\4nHdKR7]4lHdKT7\\4kHeKU7\\4iHeKW7\\4gHeKY7[4fHfKZ7[4dHfK\\7[4bHfK^7[4`HfK`7\\4]HeKc7\\4ZHfKf7\\4VHfKj7\\4RHfKn7f50000000bJVHf3j7XL\\Hd3d7[L`Hb3`7]LdH`3\\7`LfH^3Z7aLiH]3W7cLjH\\3V7dLlHZ3T7eLnHZ3R7fLoHY3Q7gLQIW3o6iLRIV3n6iLTIV3l6jLUIU3k6kLVIT3j6lLXIR3h6nLXIR3h6mLZIR3f6nL[IQ3e6oL\\IP3d6PM]Io2c6^LkG1b1a3c6[LnG4_1a3c6ZLoG5_1`3b6ZLQH5]1a3b6YLRH6\\1a3b6XLSH6]1a3`6WLUH8[1a3`6VLVH9Z1a3`6ULWH:Y1a3b6RLVH=X1a3S7_LnH`3S7_LmHa3S7_LmHa3S7_LmHa3S7_LmHa3S7_LmHa3S7_LmHa3T7^LlHb3T7^LlHb3T7^LlHb3T7^LlHb3U7]LkHc3U7]LkHc3U7]LkHc3U7]LkHc3U7]LkHc3U7]LkHc3V7\\LjHd3V7\\LjHd3V7]LhHd3X7\\LhHd3X7\\LhHd3X7\\LhHd3X7\\LhHd3X7\\LgHe3Y7[LgHe3Z7ZLfHf3Z7ZLeHg3[7YLeHg3[7ZLcHg3]7YLbHh3^7XLaHi3_7WLaHi3_7WL`Hj3`7WL]Hk3c7UL\\Hl3d7TL[Hm3e7SLZHn3f7RLYHo3g7RLWHo3i7QLUHQ4k7oKTHR4l7oKQHS4o7mKPHT4P8mKmGU4S8kKkGW4U8jKhGX4X8iKcG[4]8gK]G]4c8P10000000000000000000000O1000000000000O100000000O10000O10000O1]ORJTHn5l7TJRHl5n7UJQHk5o7UJQHk5o7VJPHj5P8VJPHj5P8WJnGj5R8VJnGj5R8WJmGi5S8b000000000000000000000000dKPHh1P8VNTHh1l7VNWHi1i7UNYHk1g7TNcHc1]7\\NnHZ1R7fNWIQ1i6nN[Io0e6QO]Im0c6SO]Im0c6RO_Im0a6SO`Il0`6TO`Il0`6TOaIk0^6UOcIk0]6UOdIj0\\6VOdIj0\\6VOeIi0[6WOeIi0[6WOeIi0[6WOfIh0Z6WOgIi0Y6WOgIi0Y6WOhIh0X6XOhIh0X6XOhIh0X6XOhIh0X6XOhIh0X6XOiIg0W6YOiIg0W6YOiIg0W6YOiIg0W6YOiIg0W6YOiIg0W6YOjIf0V6ZOjIf0V6ZOjIf0V6ZOjIf0V6ZOjIf0V6ZOjIf0V6[OiIe0W6[OiIe0W6[OiIe0W6[OiIe0W6[OiIe0W6[OiIe0W6[OiIe0W6[OiIe0W6[OiIe0W6[OiIe0W6\\OhId0X6\\OhId0X6\\OhId0X6\\OhId0X6\\OhId0X6]OgIc0Y6]OgIc0Y6]OfId0Z6\\OfId0Z6\\OfId0Z6]OeIc0[6]OeIc0[6]OdId0\\6\\OdId0\\6]ObId0^6\\ObId0^6\\OaIe0_6\\O`Id0`6\\O_Ie0a6\\O\\If0d6ZOWIk0i6VOPIP1P7POjHV1V7kNdHZ1\\7gN]H_1c7bN[H_1e7bNYH_1g7dNUH]1k7eNQH]1o7j20000000000000000000000000000000000000000001O00000000001O001O00001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+        }
+    },
+    "robot": {
+        "mask": {
+            "size": [
+                480,
+                848
+            ],
+            "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2ZGXNR4i1jKZNV4g1hKZNX4g1fK[NX4g1fKZNZ4g1dKZN\\4g1aK[N_4f1lJSNQM8S8g1fJVNUM4T8h1dJWNnLI09^8h1cJVNoL:^8b1_JPO`5R1[JQOe5Q1XJPOh5R1TJPOk5S1RJnNn5T1oImNQ6V1kIlNT6X1gIiNY6\\1`IfN`6c1SIaNm6j4`NgIWJY6o4eJmJ[5S5gJkJY5U5hJjJX5V5iJiJW5W5jJhJW5W5iJiJW5W5iJiJW5W5jJhJV5X5jJhJV5X5kJgJU5Y5lJfJT5Z5lJfJT5Z5mJeJS5[5nJdJS5[5mJeJS5[5nJdJR5\\5nJdJR5\\5oJcJQ5]5oJcJQ5]5PKbJP5^5PKbJP5^5QKaJo4_5QKaJo4_5RK`Jn4`5RK`Jn4`5SK_J9C_2n5YM^J2If2i5XM^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+        }
+    },
+    "relationships": {
+        "behind": [
+            [
+                3,
+                4
+            ],
+            [
+                0,
+                3,
+                4
+            ],
+            [
+                0,
+                1,
+                3,
+                4
+            ],
+            [
+                4
+            ],
+            []
+        ],
+        "front": [
+            [
+                1,
+                2
+            ],
+            [
+                2
+            ],
+            [],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "left": [
+            [
+                4
+            ],
+            [
+                0,
+                2,
+                3,
+                4
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                2,
+                4
+            ],
+            []
+        ],
+        "right": [
+            [
+                1,
+                2,
+                3
+            ],
+            [],
+            [
+                1,
+                3
+            ],
+            [
+                1
+            ],
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ]
+    }
+}

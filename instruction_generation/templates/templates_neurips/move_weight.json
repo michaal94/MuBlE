@@ -1,0 +1,61 @@
+[
+	{
+		"text": [
+			"Move the <WS1> of [all] <OBJ1>s to the <TP1> part of the table.",
+			"Place the <WS1> of [all] <OBJ1>s on the <TP1> part of the table."
+		],
+		"parameters": [
+			{
+				"name": "<OBJ1>",
+				"type": "object"
+			},
+			{
+				"name": "<TP1>",
+				"type": "table_part"
+			},
+			{
+				"name": "<WS1>",
+				"type": "weight_specifier"
+			}
+		],
+		"constraints": [
+			{
+				"target": [
+					"<OBJ1>"
+				],
+				"type": "NON_UNIQUE"
+			},
+			{
+				"target": [
+					"<OBJ1>",
+					"pickupable"
+				],
+				"type": "IS"
+			}
+		],
+		"program": [
+			{
+				"type": "scene",
+				"input": null,
+				"input_values": null
+			},
+			{
+				"type": "filter_object",
+				"input": -1,
+				"input_values": "<OBJ1>"
+			},
+			{
+				"type": "filter_weight",
+				"input": -1,
+				"input_values": "<WS1>"
+			},
+			{
+				"type": "move_to",
+				"input": -1,
+				"input_values": "<TP1>"
+			}
+		],
+		"task_id": "move",
+		"template_id": "move_weight"
+	}
+]

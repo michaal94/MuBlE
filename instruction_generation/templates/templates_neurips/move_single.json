@@ -1,0 +1,59 @@
+[
+	{
+		"text": [
+			"Move the <OBJ1> to the <TP1> part of the table.",
+			"Place the <OBJ1> on the <TP1> part of the table."
+		],
+		"parameters": [
+			{
+				"name": "<OBJ1>",
+				"type": "object"
+			},
+			{
+				"name": "<TP1>",
+				"type": "table_part"
+			}
+		],
+		"constraints": [
+			{
+				"target": [
+					"<OBJ1>"
+				],
+				"type": "UNIQUE"
+			},
+			{
+				"target": [
+					"<OBJ1>",
+					"pickupable"
+				],
+				"type": "IS"
+			},
+			{
+				"target": [
+					"<OBJ1>",
+					"<TP1>"
+				],
+				"type": "NOT_TP"
+			}
+		],
+		"program": [
+			{
+				"type": "scene",
+				"input": null,
+				"input_values": null
+			},
+			{
+				"type": "filter_object",
+				"input": -1,
+				"input_values": "<OBJ1>"
+			},
+			{
+				"type": "move_to",
+				"input": -1,
+				"input_values": "<TP1>"
+			}
+		],
+		"task_id": "move",
+		"template_id": "move_single"
+	}
+]

@@ -1,0 +1,65 @@
+<mujoco model="plate2">
+  <asset>
+    <mesh file="../../meshes/train/plate2/simple_mesh.stl" name="plate2_mesh" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_1.stl" name="plate2_hull_mesh_1" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_2.stl" name="plate2_hull_mesh_2" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_3.stl" name="plate2_hull_mesh_3" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_4.stl" name="plate2_hull_mesh_4" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_5.stl" name="plate2_hull_mesh_5" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_6.stl" name="plate2_hull_mesh_6" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_7.stl" name="plate2_hull_mesh_7" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_8.stl" name="plate2_hull_mesh_8" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_9.stl" name="plate2_hull_mesh_9" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_10.stl" name="plate2_hull_mesh_10" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_11.stl" name="plate2_hull_mesh_11" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_12.stl" name="plate2_hull_mesh_12" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_13.stl" name="plate2_hull_mesh_13" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_14.stl" name="plate2_hull_mesh_14" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_15.stl" name="plate2_hull_mesh_15" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_16.stl" name="plate2_hull_mesh_16" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_17.stl" name="plate2_hull_mesh_17" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_18.stl" name="plate2_hull_mesh_18" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_19.stl" name="plate2_hull_mesh_19" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_20.stl" name="plate2_hull_mesh_20" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_21.stl" name="plate2_hull_mesh_21" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_22.stl" name="plate2_hull_mesh_22" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_23.stl" name="plate2_hull_mesh_23" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_24.stl" name="plate2_hull_mesh_24" scale="1 1 1"/>
+    <mesh file="../../meshes/train/plate2/plate2_hull_25.stl" name="plate2_hull_mesh_25" scale="1 1 1"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom pos="0 0 0" mesh="plate2_mesh" type="mesh" contype="0" conaffinity="0" group="1"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_1" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_2" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_3" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_4" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_5" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_6" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_7" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_8" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_9" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_10" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_11" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_12" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_13" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_14" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_15" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_16" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_17" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_18" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_19" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_20" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_21" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_22" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_23" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_24" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+        <geom pos="0 0 0" mesh="plate2_hull_mesh_25" type="mesh" margin="0.001" solimp="0.998 0.998 0.001" solref="0.001 1" density="2000" friction="0.95 0.3 0.1" group="0" condim="4"/>
+      </body>
+      <site rgba="0 0 0 0" size="0.005" pos="0 0 -0.001" name="bottom_site"/>
+      <!-- <site rgba="0 0 0 0" size="0.005" pos="0 0 0.02" name="top_site"/> -->
+      <site rgba="0 0 0 0" size="0.005" pos="0.0375 0.02 0" name="horizontal_radius_site"/>
+    </body>
+  </worldbody>
+</mujoco>

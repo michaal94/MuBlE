@@ -1,0 +1,48 @@
+[
+	{
+		"text": [
+			"Measure the weight of the <OBJ1>.",
+			"What is the weight of the <OBJ1>?"
+		],
+		"parameters": [
+			{
+				"name": "<OBJ1>",
+				"type": "object"
+			}
+		],
+		"constraints": [
+			{
+				"target": [
+					"<OBJ1>"
+				],
+				"type": "UNIQUE"
+			},
+			{
+				"target": [
+					"<OBJ1>",
+					"pickupable"
+				],
+				"type": "IS"
+			}
+		],
+		"program": [
+			{
+				"type": "scene",
+				"input": null,
+				"input_values": null
+			},
+			{
+				"type": "filter_object",
+				"input": -1,
+				"input_values": "<OBJ1>"
+			},
+			{
+				"type": "query_weight",
+				"input": -1,
+				"input_values": null
+			}
+		],
+		"task_id": "measure_weight",
+		"template_id": "measure_weight_single"
+	}
+]

@@ -1,0 +1,57 @@
+[
+	{
+		"text": [
+			"Clean the <TP1> part of the table from [all] <OBJ1>s.",
+			"Remove [all] <OBJ1>s from the <TP1> part of the table."
+		],
+		"parameters": [
+			{
+				"name": "<TP1>",
+				"type": "table_part"
+			},
+			{
+				"name": "<OBJ1>",
+				"type": "object"
+			}
+		],
+		"constraints": [
+			{
+				"target": [
+					"<OBJ1>"
+				],
+				"type": "NON_UNIQUE"
+			},
+			{
+				"target": [
+					"<OBJ1>",
+					"pickupable"
+				],
+				"type": "IS"
+			}
+		],
+		"program": [
+			{
+				"type": "scene",
+				"input": null,
+				"input_values": null
+			},
+			{
+				"type": "filter_table_part",
+				"input": -1,
+				"input_values": "<TP1>"
+			},
+			{
+				"type": "filter_object",
+				"input": -1,
+				"input_values": "<OBJ1>"
+			},
+			{
+				"type": "move_opposite",
+				"input": -1,
+				"input_values": "<TP1>"
+			}
+		],
+		"task_id": "move",
+		"template_id": "remove"
+	}
+]

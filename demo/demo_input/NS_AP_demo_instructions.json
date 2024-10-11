@@ -1,0 +1,638 @@
+{
+    "info": {
+        "version": "DEMO",
+        "split": "DEMO"
+    },
+    "instructions": [
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000000.png",
+            "image_index": 0,
+            "instruction": "Measure the weight of the blue object.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_colour",
+                    "input": [
+                        4
+                    ],
+                    "input_value": "blue",
+                    "output": [
+                        4
+                    ]
+                },
+                {
+                    "type": "query_weight",
+                    "input": [
+                        4
+                    ],
+                    "input_value": null,
+                    "output": [
+                        123.3
+                    ]
+                }
+            ],
+            "template_id": "measure_weight_single",
+            "task_id": "measure_weight",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 0
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000001.png",
+            "image_index": 1,
+            "instruction": "Measure the weight of ceramic objects.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_material",
+                    "input": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "input_value": "ceramic",
+                    "output": [
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "query_weight",
+                    "input": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "input_value": null,
+                    "output": [
+                        62.1,
+                        82.3,
+                        131.2
+                    ]
+                }
+            ],
+            "template_id": "measure_weight_multi",
+            "task_id": "measure_weight",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 1
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000002.png",
+            "image_index": 2,
+            "instruction": "Pick up the heaviest of glass objects.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_material",
+                    "input": [
+                        2,
+                        3
+                    ],
+                    "input_value": "glass",
+                    "output": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_weight",
+                    "input": [
+                        2,
+                        3
+                    ],
+                    "input_value": "heaviest",
+                    "output": [
+                        2
+                    ]
+                },
+                {
+                    "type": "pick_up",
+                    "input": [
+                        2
+                    ],
+                    "input_value": null,
+                    "output": [
+                        2
+                    ]
+                }
+            ],
+            "template_id": "pick_up_lightest",
+            "task_id": "pick_up",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 2
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000003.png",
+            "image_index": 3,
+            "instruction": "Move the glass object to the right part of the table.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_material",
+                    "input": [
+                        3
+                    ],
+                    "input_value": "glass",
+                    "output": [
+                        3
+                    ]
+                },
+                {
+                    "type": "move_to",
+                    "input": [
+                        3
+                    ],
+                    "input_value": "right",
+                    "output": [
+                        3
+                    ]
+                }
+            ],
+            "template_id": "move_single",
+            "task_id": "move",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 3
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000004.png",
+            "image_index": 4,
+            "instruction": "Clean the left part of the table from all brown objects.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_table_part",
+                    "input": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "input_value": "left",
+                    "output": [
+                        0,
+                        1,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_colour",
+                    "input": [
+                        0,
+                        1
+                    ],
+                    "input_value": "brown",
+                    "output": [
+                        0,
+                        1
+                    ]
+                },
+                {
+                    "type": "move_to",
+                    "input": [
+                        0,
+                        1
+                    ],
+                    "input_value": "right",
+                    "output": [
+                        0,
+                        1
+                    ]
+                }
+            ],
+            "template_id": "remove",
+            "task_id": "move",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 4
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000005.png",
+            "image_index": 5,
+            "instruction": "Place the heaviest of all metal objects on the left part of the table.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_material",
+                    "input": [
+                        3,
+                        4
+                    ],
+                    "input_value": "metal",
+                    "output": [
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_weight",
+                    "input": [
+                        3,
+                        4
+                    ],
+                    "input_value": "heaviest",
+                    "output": [
+                        4
+                    ]
+                },
+                {
+                    "type": "move_to",
+                    "input": [
+                        4
+                    ],
+                    "input_value": "left",
+                    "output": [
+                        4
+                    ]
+                }
+            ],
+            "template_id": "move_weight",
+            "task_id": "move",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 5
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000006.png",
+            "image_index": 6,
+            "instruction": "Stack the mug on the brown object.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_name",
+                    "input": [
+                        2
+                    ],
+                    "input_value": "mug",
+                    "output": [
+                        2
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_colour",
+                    "input": [
+                        4
+                    ],
+                    "input_value": "brown",
+                    "output": [
+                        4
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "stack",
+                    "input_value": null,
+                    "output": [
+                        [
+                            2
+                        ],
+                        [
+                            4
+                        ]
+                    ]
+                }
+            ],
+            "template_id": "stack_simple",
+            "task_id": "stack",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 6
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000007.png",
+            "image_index": 7,
+            "instruction": "Place the heaviest of mugs on top of the plate.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_name",
+                    "input": [
+                        2,
+                        3
+                    ],
+                    "input_value": "mug",
+                    "output": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_weight",
+                    "input": [
+                        2,
+                        3
+                    ],
+                    "input_value": "heaviest",
+                    "output": [
+                        2
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_name",
+                    "input": [
+                        0
+                    ],
+                    "input_value": "plate",
+                    "output": [
+                        0
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "stack",
+                    "input_value": null,
+                    "output": [
+                        [
+                            2
+                        ],
+                        [
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "template_id": "stack_weight",
+            "task_id": "stack",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 7
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000008.png",
+            "image_index": 8,
+            "instruction": "Place the black object on top of the white object on the food box.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_colour",
+                    "input": [
+                        2
+                    ],
+                    "input_value": "black",
+                    "output": [
+                        2
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_colour",
+                    "input": [
+                        3
+                    ],
+                    "input_value": "white",
+                    "output": [
+                        3
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "type": "filter_name",
+                    "input": [
+                        0
+                    ],
+                    "input_value": "food box",
+                    "output": [
+                        0
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "stack",
+                    "input_value": null,
+                    "output": [
+                        [
+                            2
+                        ],
+                        [
+                            3
+                        ],
+                        [
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "template_id": "stack_three",
+            "task_id": "stack",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 8
+        },
+        {
+            "split": "demo",
+            "image_filename": "NS_AP_demo_000009.png",
+            "image_index": 9,
+            "instruction": "Stack red objects from heaviest to lightest.",
+            "program": [
+                {
+                    "input": null,
+                    "type": "scene",
+                    "input_value": null,
+                    "output": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ]
+                },
+                {
+                    "type": "filter_colour",
+                    "input": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "input_value": "red",
+                    "output": [
+                        0,
+                        1,
+                        2
+                    ]
+                },
+                {
+                    "type": "order_weight",
+                    "input": [
+                        0,
+                        1,
+                        2
+                    ],
+                    "input_value": "ascending",
+                    "output": [
+                        2,
+                        1,
+                        0
+                    ]
+                },
+                {
+                    "input": null,
+                    "type": "stack",
+                    "input_value": null,
+                    "output": [
+                        [
+                            2,
+                            1,
+                            0
+                        ]
+                    ]
+                }
+            ],
+            "template_id": "stack_order",
+            "task_id": "stack",
+            "template_internal_idx": 0,
+            "template_overall_idx": 0,
+            "instruction_idx": 9
+        }
+    ]
+}

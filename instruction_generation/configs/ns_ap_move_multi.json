@@ -1,0 +1,20 @@
+{
+	"metadata": "configs/metadata.json",
+	"template_file": "templates/templates_neurips/move_multi.json",
+	"synonyms": "configs/synonyms.json",
+	"plurals": "configs/plurals.json",
+	"substitutions": "configs/substitutions.json",
+	"input_scene_file": "../output_ns_ap/output_general/scenes_collected.json",
+	"output_instruction_file": "outputs/instructions_move_multi/instructions.json",
+	"start_idx": 19000,
+	"num_scenes": 5000,
+	"instructions_per_template": 1,
+	"templates_per_scene": -1,
+	"template_timeout": 60,
+	"verbose": false,
+	"dump_freq": -1,
+	"reset_statistics": 250,
+	"task_distribution": true,
+	"timer": false,
+	"extra_steps": 0
+}

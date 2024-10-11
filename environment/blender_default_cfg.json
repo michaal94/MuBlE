@@ -1,0 +1,15 @@
+{
+    "base_scene_file": "scene_generation/data/base_scene_panda.blend",
+    "materials_dir": "scene_generation/data/materials",
+    "properties_json": "scene_generation/data/properties_ns_ap.json",
+    "object_properties_json": "scene_generation/data/object_properties_ns_ap.json",
+    "shape_dir": "scene_generation/data/shapes",
+    "render_tile_size": 2048,
+    "render_num_samples": 64,
+    "render_min_bounces": 8,
+    "render_max_bounces": 8,
+    "width": 848,
+    "height": 480,
+    "use_gpu": true,
+    "use_optix": false
+  }

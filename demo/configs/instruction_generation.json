@@ -1,0 +1,20 @@
+{
+	"metadata": "configs/metadata.json",
+	"template_dir": "templates/templates_neurips",
+	"synonyms": "configs/synonyms.json",
+	"plurals": "configs/plurals.json",
+	"substitutions": "configs/substitutions.json",
+	"input_scene_file": "../demo/demo_input/NS_AP_demo_scenes.json",
+	"output_instruction_file": "../output/instruction_generation/NS_AP_demo_instructions.json",
+	"start_idx": 0,
+	"num_scenes": -1,
+	"instructions_per_template": 1,
+	"templates_per_scene": -1,
+	"template_timeout": 60,
+	"verbose": true,
+	"dump_freq": -1,
+	"reset_statistics": 250,
+	"task_distribution": true,
+	"timer": false,
+	"extra_steps": 0
+}

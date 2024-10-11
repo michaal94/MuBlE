@@ -1,0 +1,294 @@
+{
+  "info": {
+    "split": "train",
+    "version": "0.0.1a",
+    "author": "Michal Nazarczuk",
+    "date": "15/02/2021",
+    "license": "CC-BY"
+  },
+  "scenes": [
+    {
+      "scene_index": 0,
+      "image_filename": "FULL_TEST_train_000000.png",
+      "split": "train",
+      "objects": [
+        {
+          "name": "chopping_board",
+          "prefab": "chopping_board2p",
+          "shape": "flat",
+          "size": "",
+          "material": "plastic",
+          "colour": "green",
+          "pickupable": true,
+          "lightest": false,
+          "measureable": true,
+          "stackable": false,
+          "stack_base": true,
+          "position": {
+            "x": -0.13156229257583618,
+            "y": 0.7728232145309448,
+            "z": 0.9739904403686523
+          },
+          "orientation": {
+            "x": -2.211777205829435E-9,
+            "y": 0.9118196964263916,
+            "z": -2.9734289341831754E-7,
+            "w": -0.4105907678604126
+          },
+          "weight": 0.34375,
+          "scaling": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "segmentation_colour": {
+            "r": 42,
+            "g": 75,
+            "b": 215,
+            "a": 255
+          },
+          "bounding_box_size": {
+            "x": 0.2999999225139618,
+            "y": 0.010264145210385323,
+            "z": 0.208710715174675
+          },
+          "directions": {
+            "left": [
+              1
+            ],
+            "right": [
+              2,
+              3
+            ],
+            "front": [],
+            "behind": [
+              1,
+              2,
+              3
+            ]
+          },
+          "can_contain": [],
+          "table_part": [
+            "left",
+            "front"
+          ]
+        },
+        {
+          "name": "soda_can",
+          "prefab": "soda_canp",
+          "shape": "cylindrical",
+          "size": "",
+          "material": "metal",
+          "colour": "green",
+          "pickupable": true,
+          "lightest": false,
+          "measureable": true,
+          "stackable": true,
+          "stack_base": false,
+          "position": {
+            "x": -0.05315511301159859,
+            "y": 0.7725256085395813,
+            "z": 0.6547159552574158
+          },
+          "orientation": {
+            "x": 2.856831713415886E-7,
+            "y": 0.9163975119590759,
+            "z": 0.000002509914111215039,
+            "w": -0.4002695381641388
+          },
+          "weight": 0.0625,
+          "scaling": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "segmentation_colour": {
+            "r": 29,
+            "g": 105,
+            "b": 20,
+            "a": 255
+          },
+          "bounding_box_size": {
+            "x": 0.0792962908744812,
+            "y": 0.1379999965429306,
+            "z": 0.07912386953830719
+          },
+          "directions": {
+            "left": [],
+            "right": [
+              0,
+              2,
+              3
+            ],
+            "front": [
+              0,
+              3
+            ],
+            "behind": [
+              2
+            ]
+          },
+          "can_contain": [],
+          "table_part": [
+            "left",
+            "back"
+          ]
+        },
+        {
+          "name": "knife",
+          "prefab": "knife1p",
+          "shape": "long and thin",
+          "size": "",
+          "material": "plastic",
+          "colour": "white",
+          "pickupable": true,
+          "lightest": true,
+          "measureable": true,
+          "stackable": false,
+          "stack_base": false,
+          "position": {
+            "x": -0.42556729912757874,
+            "y": 0.7728170156478882,
+            "z": 0.6122571229934692
+          },
+          "orientation": {
+            "x": 5.275069270282984E-11,
+            "y": 0.6349909901618958,
+            "z": 4.3655745685100555E-11,
+            "w": 0.772519588470459
+          },
+          "weight": 0.0078125,
+          "scaling": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "segmentation_colour": {
+            "r": 129,
+            "g": 74,
+            "b": 25,
+            "a": 255
+          },
+          "bounding_box_size": {
+            "x": 0.030055636540055275,
+            "y": 0.005905859172344208,
+            "z": 0.25999993085861206
+          },
+          "directions": {
+            "left": [
+              0,
+              1,
+              3
+            ],
+            "right": [],
+            "front": [
+              0,
+              1,
+              3
+            ],
+            "behind": []
+          },
+          "can_contain": [],
+          "table_part": [
+            "left",
+            "back"
+          ]
+        },
+        {
+          "name": "glass",
+          "prefab": "glass4p",
+          "shape": "cylindrical",
+          "size": "",
+          "material": "plastic",
+          "colour": "yellow",
+          "pickupable": true,
+          "lightest": false,
+          "measureable": true,
+          "stackable": true,
+          "stack_base": false,
+          "position": {
+            "x": -0.2596854865550995,
+            "y": 0.7728177309036255,
+            "z": 0.7519963979721069
+          },
+          "orientation": {
+            "x": 5.863694241270423E-8,
+            "y": 0.7705419659614563,
+            "z": 1.1081283446401358E-8,
+            "w": 0.6373892426490784
+          },
+          "weight": 0.125,
+          "scaling": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          "segmentation_colour": {
+            "r": 129,
+            "g": 38,
+            "b": 192,
+            "a": 255
+          },
+          "bounding_box_size": {
+            "x": 0.08317779004573822,
+            "y": 0.09119998663663864,
+            "z": 0.08317776769399643
+          },
+          "directions": {
+            "left": [
+              0,
+              1
+            ],
+            "right": [
+              2
+            ],
+            "front": [
+              0
+            ],
+            "behind": [
+              1,
+              2
+            ]
+          },
+          "can_contain": [],
+          "table_part": [
+            "left",
+            "back"
+          ]
+        }
+      ],
+      "camera_parameters": {
+        "position": {
+          "x": -0.12300000339746475,
+          "y": 1.3300000429153442,
+          "z": 1.8799999952316284
+        },
+        "orientation": {
+          "x": -0.011376108974218369,
+          "y": 0.9876721501350403,
+          "z": -0.13002946972846985,
+          "w": -0.08641015738248825
+        },
+        "fov": 50.0,
+        "width": 1920,
+        "height": 1080
+      },
+      "robot_parameters": {
+        "joint_angles": [
+          -34.47746276855469,
+          -23.142559051513672,
+          -79.34162902832031,
+          12.484188079833984,
+          90.0,
+          47.97413635253906
+        ],
+        "segmentation_colour": {
+          "r": 173,
+          "g": 35,
+          "b": 35,
+          "a": 255
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+    "split": "demo",
+    "image_index": 0,
+    "image_filename": "NS_AP_demo_000000.png",
+    "objects": [
+        {
+            "file": "plate2",
+            "name": "plate",
+            "shape": "flat",
+            "size": "medium-sized",
+            "material": "ceramic",
+            "3d_coords": [
+                0.6387307047843933,
+                0.0020048609003424644,
+                0.0
+            ],
+            "orientation": [
+                0.229126438498497,
+                0.0,
+                0.0,
+                0.9733966588973999
+            ],
+            "rotation": 153.50870723035743,
+            "pixel_coords": [
+                576,
+                419,
+                0.5364477634429932
+            ],
+            "colour": "brown",
+            "weight_gt": 253.1,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.15785689651966095,
+                "y": 0.15785689651966095,
+                "z": 0.010170946829020977
+            },
+            "scale_factor": 0.6,
+            "stackable": false,
+            "stack_base": true,
+            "pickupable": false,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "bgS75h>6K4M3L3N3M2O1N2N2N2O0O2O1N2O0O2O1N101N101O1N101O0O2O001O0O2O00001N101O00001N101O00001O0O101O00001O00001O000O101O0000001O0000001O0000001O00000000001O000000001O0000000000001O0001O00000000000001O000001O0000000000001O0000000000001O000000001O000000001O0000001O0000001O000O101O00001O0000001N10001O00001N101O00001N101O000O2O001N101O001N101N2O001N101N2O0O2O1N2O0O2N2N2O1N2N3M2M4M3LQda2"
+            }
+        },
+        {
+            "file": "bowl2",
+            "name": "bowl",
+            "shape": "hemisphere",
+            "size": "small",
+            "material": "ceramic",
+            "3d_coords": [
+                0.4876764714717865,
+                -0.1821191906929016,
+                0.0
+            ],
+            "orientation": [
+                0.09507515281438828,
+                0.0,
+                0.0,
+                0.9954701066017151
+            ],
+            "rotation": 169.08870826040337,
+            "pixel_coords": [
+                376,
+                365,
+                0.6831637024879456
+            ],
+            "colour": "white",
+            "weight_gt": 138.7,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.07368434965610504,
+                "y": 0.07368435710668564,
+                "z": 0.04050000011920929
+            },
+            "scale_factor": 0.45,
+            "stackable": true,
+            "stack_base": true,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "[fo4:e>9G5K3M3N2M2O1N2O1O1N101O001N101O0000001N100000001O000000000000000000000000000000O100000000O1000001N100O100O101N1O1O101M2O1O2M2N3K5Kl\\^6"
+            }
+        },
+        {
+            "file": "glass5",
+            "name": "glass",
+            "shape": "cuboid",
+            "size": "medium-sized",
+            "material": "glass",
+            "3d_coords": [
+                0.3581062853336334,
+                -0.3235705494880676,
+                0.0
+            ],
+            "orientation": [
+                0.21253080666065216,
+                0.0,
+                0.0,
+                0.9771543741226196
+            ],
+            "rotation": 155.45859007965282,
+            "pixel_coords": [
+                275,
+                333,
+                0.8092982172966003
+            ],
+            "colour": "transparent",
+            "weight_gt": 58.9,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.06595516949892044,
+                "y": 0.06595516949892044,
+                "z": 0.053819961845874786
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": false,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "XRd31n>>B=C=D3M0O101O000O1000001O000O10000000001O000000000O10000000000000O10001N10000O100O10000O2O0O100O2N1ZObRQ8"
+            }
+        },
+        {
+            "file": "baking_tray1",
+            "name": "baking tray",
+            "shape": "flat",
+            "size": "large",
+            "material": "metal",
+            "3d_coords": [
+                0.6998618841171265,
+                -0.26186448335647583,
+                0.0
+            ],
+            "orientation": [
+                0.21776482462882996,
+                0.0,
+                0.0,
+                0.9760012626647949
+            ],
+            "rotation": 154.8444335341439,
+            "pixel_coords": [
+                255,
+                454,
+                0.4712105989456177
+            ],
+            "colour": "gray",
+            "weight_gt": 359.8,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.21000002324581146,
+                "y": 0.1408511996269226,
+                "z": 0.011227048933506012
+            },
+            "scale_factor": 0.6,
+            "stackable": false,
+            "stack_base": true,
+            "pickupable": false,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "o_U11o>0O100O100O100O1O100O100O100O100O100O100O100O100O100O100O100O100O100O1O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O1O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O100O10000O100O100O100000000000000000000000000001O00000000001O00000000001O00000000001O000000001O00000000001O0000000O1O2N1O1O100O2N1O1O100O1O2N1O100O1O2N1O1O100O1O2N1O100O1O2N1O100O1O1O2N1O100O1O1O2N100O1O1O2N1O100O1O2N1O100O1O1O2N1O100O1O2N1O1O100O2N1O1O1O1N3N1N2O1O2N1O101M[ld6"
+            }
+        },
+        {
+            "file": "soda_can",
+            "name": "soda can",
+            "shape": "cylindrical",
+            "size": "medium-sized",
+            "material": "metal",
+            "3d_coords": [
+                0.30398741364479065,
+                0.06212594732642174,
+                0.0
+            ],
+            "orientation": [
+                0.5455864667892456,
+                0.0,
+                0.0,
+                0.8380545377731323
+            ],
+            "rotation": 113.8704997623575,
+            "pixel_coords": [
+                556,
+                322,
+                0.8696866631507874
+            ],
+            "colour": "blue",
+            "weight_gt": 123.3,
+            "weight": null,
+            "movability": "portable",
+            "bbox": {
+                "x": 0.04757760092616081,
+                "y": 0.04747440293431282,
+                "z": 0.0828000009059906
+            },
+            "scale_factor": 0.6,
+            "stackable": true,
+            "stack_base": false,
+            "pickupable": true,
+            "mask": {
+                "size": [
+                    480,
+                    848
+                ],
+                "counts": "nml7o0a=b0L3M3L4O1O0O101O000000001O00000000000000000001O0O1000000O2M200O6J3ZOUVP4"
+            }
+        }
+    ],
+    "directions": {
+        "behind": [
+            -0.9998477697372437,
+            0.017452329397201538,
+            0.0
+        ],
+        "front": [
+            0.9998477697372437,
+            -0.017452329397201538,
+            -0.0
+        ],
+        "left": [
+            -0.017452297732234,
+            -0.9998476505279541,
+            0.0
+        ],
+        "right": [
+            0.017452297732234,
+            0.9998476505279541,
+            -0.0
+        ],
+        "above": [
+            0.0,
+            0.0,
+            1.0
+        ],
+        "below": [
+            -0.0,
+            -0.0,
+            -1.0
+        ]
+    },
+    "camera_params": {
+        "position": [
+            1.1496347188949585,
+            -0.1398545801639557,
+            0.22131800651550293
+        ],
+        "rotation": [
+            83.00000117132056,
+            0.0,
+            89.00000133828577
+        ],
+        "rotation_mode": "EulerXYZ"
+    },
+    "lamp_params": {
+        "Lamp_Key": [
+            3.221327543258667,
+            -2.0656347274780273,
+            2.1961939334869385
+        ],
+        "Lamp_Back": [
+            -1.8271340131759644,
+            2.007080078125,
+            2.30462646484375
+        ],
+        "Lamp_Fill": [
+            -2.4446568489074707,
+            -3.0100631713867188,
+            2.511399030685425
+        ]
+    },
+    "table": {
+        "mask": {
+            "size": [
+                480,
+                848
+            ],
+            "counts": "oTS11n>1O1O1O1O001O001O0010O01O00001O001O001O001O001O010O001O001O001O001O001O001O010O00001O001O001O001O001O010O001O001O001O001O001O001O010O001O001O001O001O001O0010O01O001O001O001O001O001O0010O01O001O001O001O001O00001O010O001O001O001O001O001O0010O01O001O001O001O001O001O0010O01O001O001O001O001O001O010O001O001O001O001O001O001O010O001O001O001O001O001O001O06K<C4M0O101N100O100O101O0O100O100O10001O0000000000000000000000\\NdNdE]1Z:dNeE]1Z:dNfE\\1Y:eNgE[1X:gNfEZ1Y:gNgEY1X:hNhEY1V:hNiEY1V:hNjEX1V:hNiEY1V:hNjEX1U:iNkEW1T:jNkEX1S:jNlEV1S:kNlEV1S:kNmEU1R:lNmEU1R:mNlET1S:mNWEj1g:X1O100O1O2N1O1000000O2O0000000gGRL`5n3_JSLa5n3]JSLc5m3\\JTLd5l3[JULe5k3[JULe5k3ZJVLf5k3XJVLh5j3WJWLi5i3VJXLj5h3VJXLj5h3UJYLk5g3TJZLl5g3RJZLn5f3QJ[Lo5e3QJ[Lo5e3PJ\\LP6d3oI]LQ6d3mI]LS6c3lI^LT6b3kI_LU6a3kI_LU6a3jI`LV6`3iIaLW6`3gIaLY6_3fIbLZ6^3fIbLZ6]1RHDc1PO[6[1[H]OY1YO\\6Y1`H[OR1]O^6W1cHZOn0@_6U1fHYOk0B_6U1hHWOh0E`6S1jHWOe0Ga6R1kHVOc0Ib6P1mHWO?Jd6o0nHVO=Le6n0oHUO<Me6m0PIVO:Nf6l0QIUO80g6k0QIUO71h6j0RIUO42j6h0SIVO32j6h0TIUO14k6g0TIUO05l6f0TIUOO6m6e0TIVOM6o6d0UIUOK8P7b0VIVOJ8P7b0VIVOI9Q7a0VIVOH:R7`0VIWOF:T7?WIVOD<U7>WIVOD<U7>WIVOC=V7=WIVOB>W7<WIVOA?X7;WIWO_O?Z7:WIWO^O`0[79WIWO^O`0[79WIWO]Oa0\\78WIWO\\Ob0]77WIXOZOb0_76WIXOYOc0`75WIXOXOd0a74WIXOXOd0a74WIXOWOe0b73WIYOUOe0d72VIZOUOe0e71VIZOTOf0f70VIZOSOg0g7OVIZOQOi0i7MVI[OoNi0k7LUI\\OnNj0m7JUI\\OmNk0n7IUI\\OlNl0o7HUI]OjNl0Q8HSI]OkNl0R8GSI]OkNl0R8GRI_OiNl0U8ERIh1n6XNQIi1o6WNQIi1o6XNoHi1Q7WNnHj1R7VNmHk1S7UNmHk1S7VNjHl1V7TNiHm1W7SNhHn1X7SNeHo1[7QNcHQ2]7PN^HT2b7mMYHW2g7a200000000000000000000000000000000000000000000000000000000000gIkGg5U8VJnGj5R8UJoGk5Q8TJQHk5o7TJRHl5n7SJSHm5m7QJUHo5k7PJVHP6j7oIWHQ6k7lIVHT6[801O00000000001O0000001O00000000001O00000000000000001O00000000000000000000000bMUGgNk8V1[GgNe8W1_GgNa8X1bGfN^8X1eGgN[8X1hGfNX8Y1jGfNV8Z1kGeNU8Z1mGeNS8Z1oGeNQ8Z1QHeNo7[1QHeNo7Z1SHeNm7[1THdNl7[1VHdNj7\\1VHdNj7[1XHdNh7\\1YHcNg7\\1ZHdNf7\\1[HcNe7\\1\\HdNd7\\1]HcNc7]1^HbNa7^1`HbN`7^1aHaN_7_1aHaN_7^1cHaN]7_1cHaN]7_1dH`N\\7`1dH`N[7`1gH_NY7a1gH_NY7a1gH_NY7a1hH^NX7a1iH_NV7b1kH]NU7c1kH]NU7c1kH]NT7d1mH[NS7d1nH\\NR7d1oH[NP7f1PIZN]6mNTHi2_1ZN]6oNRHg2b1YN\\6QOQHf2c1YN\\6QOQHe2d1ZN[6ROPHd2f1YNZ6SOPHd2f1YNZ6TOnGd2h1XNZ6TOnGd2i1WNY6VOmGc2j1WNY6[2gIeMY6[2hIdMX6\\2hIdMX6@gHW1Q1YOX6POYId1`0\\OW6nN\\Ie1>\\OV6mN_If1;]OP8b0PH^OQ8a0oG_OQ8a0PH^OP8b0PH^OQ8a0oG_OQ8a0oG_OQ8a0PH^OP8b0PH^OP8b0PH^OQ8a0oG_OQ8a0PH^OP8b0PH^OP8b0PH^OP8b0PH^OP8b0PH^OP8b0PH^OP8b0QH]Oo7c0QH]Oo7c0QH]Oo7c0QH]Oo7c0QH]On7d0SH[Om7e0SH[Om7e0SH[Om7e0SH[Ol7f0THZOP6QObIg1>XOP6QObIg1>XOP6QOaIh1`0VOo5WO[Id1f0UOo5YOeHV2\\1aNo5d2PJ\\MP6d2PJ\\MP6d2PJ\\MP6d2PJ\\MP6d2PJ\\MP6d2PJ\\MP6d2PJ\\MP6d2QJ[Mo5e2QJ[Mo5e2QJ[Mo5e2QJ[Mo5f2PJZMP6f2PJZMP6f2PJZMP6f2PJZMP6f2PJZMP6f2PJZMP6f2PJZMP6g2oIYMQ6g2oIYMQ6g2oIYMQ6g2oIYMQ6g2oIYMQ6g2oIYMQ6g2oIYMQ6h2nIXMR6h2nIXMR6h2nIXMR6h2nIXMR6h2nIXMR6i2mIWMS6i2mIWMS6i2mIWMS6i2mIWMS6i2mIWMS6j2lIVMT6j2lIVMT6j2lIVMT6j2lIVMT6k2kIUMU6k2kIUMU6k2kIUMU6k2kIUMU6l2jITMV6l2jITMV6l2iIUMW6k2iIUMW6l2hITMX6l2hITMX6l2hITMX6m2gISMY6m2gISMY6m2gISMY6m2gISMY6n2eISM[6m2eISM[6m2eISM[6n2dIRM\\6n2dIRM\\6n2dIRM\\6o2bIRM^6n2bIRM^6o2aIQM_6o2aIQM_6o2aIQM_6P3_IQMa6o2_IQMa6P3^IPMb6P3^IPMb6P3]IQMc6P3\\IPMd6P3\\IPMd6Q3ZIPMf6P3ZIPMf6Q3YIoLh6P3XIPMh6Q3VIPMj6P3VIPMj6Q3TIPMl6Q3SIoLm6Q3SIoLn6Q3PIPMP7P3PIPMQ7P3mHQMS7P3lHPMT7P3kHQMV7o2iHQMW7P3gHQMY7P3fHPM[7o2dHRM\\7o2bHRM_7n2_HSMa7n2^HRMc7n2[HSMe7n2YHSMg7o2VHRMk7n2RHTMn7n2oGSMR8n2jGTMV8k4001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+        }
+    },
+    "robot": {
+        "mask": {
+            "size": [
+                480,
+                848
+            ],
+            "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2ZGXNR4i1jKZNV4g1hKZNX4g1fK[NX4g1fKZNZ4g1dKZN\\4g1aK[N_4f1lJSNQM8S8g1fJVNUM4T8h1dJWNnLI09^8h1cJVNoL:^8b1_JPO`5R1[JQOe5Q1XJPOh5R1TJPOk5S1RJnNn5T1oImNQ6V1kIlNT6X1gIiNY6\\1`IfN`6c1SIaNm6j4`NgIWJY6o4eJmJ[5S5gJkJY5U5hJjJX5V5iJiJW5W5jJhJW5W5iJiJW5W5iJiJW5W5jJhJV5X5jJhJV5X5kJgJU5Y5lJfJT5Z5lJfJT5Z5mJeJS5[5nJdJS5[5mJeJS5[5nJdJR5\\5nJdJR5\\5oJcJQ5]5oJcJQ5]5PKbJP5^5PKbJP5^5QKaJo4_5QKaJo4_5RK`Jn4`5RK`Jn4`5SK_J9C_2n5YM^J2If2i5XM^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+        }
+    },
+    "relationships": {
+        "behind": [
+            [
+                1,
+                2,
+                4
+            ],
+            [
+                2,
+                4
+            ],
+            [
+                4
+            ],
+            [
+                0,
+                1,
+                2,
+                4
+            ],
+            []
+        ],
+        "front": [
+            [
+                3
+            ],
+            [
+                0,
+                3
+            ],
+            [
+                0,
+                1,
+                3
+            ],
+            [],
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "left": [
+            [
+                1,
+                2,
+                3
+            ],
+            [
+                2,
+                3
+            ],
+            [],
+            [
+                2
+            ],
+            [
+                0,
+                1,
+                2,
+                3
+            ]
+        ],
+        "right": [
+            [
+                4
+            ],
+            [
+                0,
+                4
+            ],
+            [
+                0,
+                1,
+                3,
+                4
+            ],
+            [
+                0,
+                1,
+                4
+            ],
+            []
+        ]
+    }
+}

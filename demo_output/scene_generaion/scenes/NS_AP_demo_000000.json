@@ -1,0 +1,325 @@
+{
+  "split": "demo",
+  "image_index": 0,
+  "image_filename": "NS_AP_demo_000000.png",
+  "objects": [
+    {
+      "file": "mug2",
+      "name": "mug",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "ceramic",
+      "3d_coords": [
+        0.5472732186317444,
+        0.104145348072052,
+        0.0
+      ],
+      "orientation": [
+        0.7996086478233337,
+        0.0,
+        0.0,
+        0.6005215048789978
+      ],
+      "rotation": 73.81451309824192,
+      "pixel_coords": [
+        651,
+        382,
+        0.628978967666626
+      ],
+      "colour": "black",
+      "weight_gt": 98.4,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.08116768300533295,
+        "y": 0.05637278035283089,
+        "z": 0.0719999447464943
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "YTP9<b>5K5L4M\\OQB9l=GYB7e=I^B6`=IdB6Z=JiB4V=LlB4R=LPC3o<MSC2l<NUC2j<OVC1i<OYCOh<0XC1g<0YC0g<OZC0f<1ZCOf<1YCOg<2YCNg<2YCMh<5UCLj<6TCJm<5SCLe<?XC@]<X1UCjNi<^1PCbNP=g1O103M3L3N2N1O1O001O1O00001O0000001O000000001O0000000000000001O000000000000001O0O100O1O1O2M2N2N2N3L3N2L5L3K6J5J7H8D_RU2"
+      }
+    },
+    {
+      "file": "glass2",
+      "name": "glass",
+      "shape": "cylindrical",
+      "size": "medium-sized",
+      "material": "glass",
+      "3d_coords": [
+        0.4904550611972809,
+        -0.1781439632177353,
+        0.0
+      ],
+      "orientation": [
+        0.27643176913261414,
+        0.0,
+        0.0,
+        0.9610335230827332
+      ],
+      "rotation": 147.9052836763296,
+      "pixel_coords": [
+        379,
+        365,
+        0.680475115776062
+      ],
+      "colour": "transparent",
+      "weight_gt": 69.0,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.048578545451164246,
+        "y": 0.048578545451164246,
+        "z": 0.1170000433921814
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": false,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "gTW5a0Q>l0]O;J6jCZNe:n1oDXNP;Q2bDUN];h2O1N10001O0000001O000000000O10000000000001O00000O100000000O10001N100QOeDXN\\;^1SE\\No:\\1\\E_Nn:Q1_EfNR;>TZa6"
+      }
+    },
+    {
+      "file": "chopping_board1",
+      "name": "chopping board",
+      "shape": "cuboid",
+      "size": "medium-sized",
+      "material": "wooden",
+      "3d_coords": [
+        0.4469226002693176,
+        -0.005226174835115671,
+        0.0
+      ],
+      "orientation": [
+        0.9923979640007019,
+        0.0,
+        0.0,
+        0.12307018786668777
+      ],
+      "rotation": 14.138650756401601,
+      "pixel_coords": [
+        527,
+        353,
+        0.7266718149185181
+      ],
+      "colour": "brown",
+      "weight_gt": 531.5,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.1345515102148056,
+        "y": 0.1345515251159668,
+        "z": 0.009472114965319633
+      },
+      "scale_factor": 0.45,
+      "stackable": false,
+      "stack_base": true,
+      "pickupable": false,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "_Pg69g>0O2O1O1O1O1N2O1O1O001O1O1O1O1O1O1O1O0O2O1O1O1O1O1O1O1O001O1O1O1N2O001O001O000000000000000O100000000000000000O10000000O100000000000O100000000000O100000O100000000000000000O10O100000001O000000001N101O001O001O001O001O1N101O001O001O001O1O0O2O001O001O001O001O1N101O001O001O001O1O001N101O001O0O2O2HQba3"
+      }
+    },
+    {
+      "file": "bowl3",
+      "name": "bowl",
+      "shape": "hemisphere",
+      "size": "medium-sized",
+      "material": "plastic",
+      "3d_coords": [
+        0.6433693766593933,
+        -0.2875346839427948,
+        0.0
+      ],
+      "orientation": [
+        0.9988880753517151,
+        0.0,
+        0.0,
+        0.047145046293735504
+      ],
+      "rotation": 5.4044277432925565,
+      "pixel_coords": [
+        242,
+        424,
+        0.5268288254737854
+      ],
+      "colour": "blue",
+      "weight_gt": 194.8,
+      "weight": null,
+      "movability": "portable",
+      "bbox": {
+        "x": 0.10247699916362762,
+        "y": 0.10321199893951416,
+        "z": 0.05400000512599945
+      },
+      "scale_factor": 0.6,
+      "stackable": true,
+      "stack_base": true,
+      "pickupable": true,
+      "mask": {
+        "size": [
+          480,
+          848
+        ],
+        "counts": "`\\b2;c>8I5K3M4L3N1N3M3N1N2O2N1N2O1N2O1O1O1N2O001O1N2O1O001O1O0O2O001O1O2N1O2N1N3N1O001O001O00001O0O10001O0000000000000O1000000000000000000O1000O100000000O1000000O10O1000O10000O100O100O100O1O100O1O1N2O1N2N2M3O1O1O1O1O1O1O1O1O2N1O1N2O1O1O2M2O1N3M2N2N3M3M2M5J6FRco7"
+      }
+    }
+  ],
+  "directions": {
+    "behind": [
+      -0.9998477697372437,
+      0.017452329397201538,
+      0.0
+    ],
+    "front": [
+      0.9998477697372437,
+      -0.017452329397201538,
+      -0.0
+    ],
+    "left": [
+      -0.017452297732234,
+      -0.9998476505279541,
+      0.0
+    ],
+    "right": [
+      0.017452297732234,
+      0.9998476505279541,
+      -0.0
+    ],
+    "above": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "below": [
+      -0.0,
+      -0.0,
+      -1.0
+    ]
+  },
+  "camera_params": {
+    "position": [
+      1.1496347188949585,
+      -0.1398545801639557,
+      0.22131800651550293
+    ],
+    "rotation": [
+      83.00000117132056,
+      0.0,
+      89.00000133828577
+    ],
+    "rotation_mode": "EulerXYZ"
+  },
+  "lamp_params": {
+    "Lamp_Key": [
+      3.3031468391418457,
+      -2.065821409225464,
+      2.1792678833007812
+    ],
+    "Lamp_Back": [
+      -1.8235050439834595,
+      1.9987521171569824,
+      2.253469705581665
+    ],
+    "Lamp_Fill": [
+      -2.440958261489868,
+      -2.996835947036743,
+      2.513636350631714
+    ]
+  },
+  "table": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "oTS11n>1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1004L2N3M2N1O2N2N1O1O2N1O1O1O1O1O1O1O1O001O1O1O1O001O1O001O001O1O2N1OhMZNXGd1g8]NZGb1e8^N^G`1a8aN`G^1_8cNaG]1^8dNcG[1\\8fNdGZ1[8gNfGX1Y8iNgGW1X8jNhGV1W8kNjGT1V8lNjGT1U8lNlGT1S8mNmGS1R8nNoGQ1P8POPHP1o7QOQHo0n7RORHn0m7SOSHm0l7TOTHl0k7UOUHk0j7VOVHj0i7VOXHj0g7WOYHi0f7XOZHh0f7XOZHh0e7YO[Hg0d7ZO\\Hf0c7[O]He0b7\\O^Hd0a7]O_Hc0`7^O`Hb0_7^ObHb0]7_OcHa0\\7@cHa0\\7@dH`0[7AeH?Z7BfH>Y7CgH=Y7CfH>Y7CgH=X7DhH<W7EiH;V7FiH;V7FjH:U7FlH:S7GmH9R7HmH9R7HnH8Q7IoH7P7JoH7P7JPI6P7JoH7P7JPI6o6KPI6o6KQI5n6LQI5n6LQI5n6LRI4m6MRI4m6MRI4m6MQI5n6LQI5n6LPI6o6KoH7P7JmH9S7GlH:S7GlH:S7GlH:S7GlH:S7GlH:S7GlH:S7GlH:S7GlH:S7GlH:S7HkH9T7HkH9T7HjH:U7GjH:V7FiH;V7FiH;V7GgH;X7FgH;X7FfH<Y7FdH<[7EcH=\\7DbH>]7D`H>_7D^H>a7C\\H`0c7CWHa0i7AmGg0R8T3O1O1O1000000O1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000gIYHY5g7YJUIY5_8J6nKVFb2Q:RMUFm2T:eLRFZ3k:O1O00001O0000001O000000000000000000000000000000O100000000O10000O100QOhLUFY3a9VMYFk2`9`M[Fa2n7aLSI[1fNW2W8lLWHS5i7R100000000000000000000000000000000000000000000000000000000000000000000000gIkGg5U8VJnGj5R8UJoGk5Q8TJQHk5o7TJRHl5n7SJSHm5m7QJUHo5k7PJVHP6j7oIWHQ6k7lIVHT6[801O00000000001O0000001^K[Gg2e8YM[Gg2e8XM]Gg2c8YM^Gf2b8ZM_Ge2a8[M`Gd2a8[M`Gd2`8[MbGd2^8\\McGc2]8]MdGb2\\8^MdGb2\\8^MeGa2[8_MfG`2Z8`MgG_2Y8aMhG^2Y8aMhG^2X8bMiG]2W8cMjG\\2V8dMkG[2U8eMkG[2U8dMmG[2S8eMnGZ2R8fMoGY2Q8gMPHX2P8hMQHW2o7iMRHV2n7jMSHU2m7kMTHT2l7lMTHT2l7lMUHS2k7mMVHR2j7nMWHQ2i7oMXHP2h7oMZHP2f7PNZHP2f7PN[Ho1e7QN[Ho1e7QN\\Hn1d7RN\\Hn1d7RN\\Hn1d7RN\\Hn1d7RN\\Hn1d7RN\\Hn1d7RN\\Hn1d7RN\\Hn1d7RN\\Hn1d7QN]Ho1c7QN]Ho1c7QN]Ho1c7QN]Ho1b7RN^Hn1b7RN^Hn1b7RN^Hn1b7RN^Hn1b7RN^Hn1b7RN]Ho1c7QN]Ho1b7RN^Hn1b7RN^Hn1b7RN^Hn1b7QN_Ho1a7QN_Ho1`7RN`Hn1`7RN`Hn1`7RN`Hn1_7SNaHm1_7SN`Hn1`7RN`Hn1_7SNaHm1l6lLTHW1P1m1l6nLRHU1R1m1l6oLQHT1S1m1l6oLQHT1S1m1l6PMPHR1U1n1k6PMPHR1U1n1k6QMnGR1W1m1k6QMnGR1V1n1l6QMmGQ1W1n1l6dNTI\\1l6dNTI\\1l6dNTI\\1l6dNTI\\1l6dNTI\\1l6dNTI\\1l6dNTI\\1l6dNTI\\1l6cNUI]1k6cNTI^1l6bNTI^1l6bNTI^1l6bNTI^1l6bNTI^1l6cNSI]1m6cNSI]1m6cNSI]1m6cNSI]1m6cNSI]1m6dNQI]1o6cNQI]1o6dNPI\\1P7dNPI\\1P7eNoH[1Q7eNoH[1Q7fNnHZ1Q7gNoHY1Q7hNnHX1R7hNnHX1R7iNmHW1S7jNkHW1U7iNkHW1U7jNjHV1V7jNjHV1V7kNiHU1W7kNiHU1W7lNhHT1X7lNhHT1X7mNgHS1Y7nNfHR1Z7nNeHS1[7nNdHR1\\7nNdHR1\\7oNcHQ1]7oNcHQ1]7PObHP1^7PObHP1^7QOaHo0_7QOaHo0_7RO`Hn0`7SO^Hn0b7RO^Hn0b7SO]Hm0c7SO]Hm0c7TO\\Hl0d7TO\\Hl0d7UO[Hk0e7UO[Hk0e7VOZHj0f7WOYHi0g7WOYHi0g7XOWHi0i7WOWHi0i7XOVHh0j7XOVHh0j7YOUHg0k7YOTHh0l7YOSHg0m7[OkGk0U8P300000000000000000YKUHY2k7eMZHX2f7fM_HW2a7hMcHU2]7kMoGZN9i3h7lMoG`N7b3j7nMoGcN6]3k7PNnGgN6W3l7RNnGjN4S3n7SNnGlN4o2n7UNnGnN3l2o7VNnGPO2i2P8WNnGQO2g2P8XNoGQO1f2P8YNoGSOOd2R8ZNnGRO1c2Q8[NoGRO0b2Q8]NnGRO0a2R8]NoGROO`2R8_NoGPOOa2R8_NPHPON`2R8aNPHoNM`2S8bNRHkNLb2R8cNTHiNJd2R8dNSHhNLc2Q8^N^HlN@f2R8SNVIiNjNS3P8SN^IcNbNZ3P8SNgIm1Y6RNhIn1X6RNkIk1U6UNnIh1R6WNQJg1o5YNSJe1m5[NTJd1m5[NTJd1l5\\NTJd1l5\\NUJc1k5]NVJb1j5^NVJb1j5^NVJb1k5]NVJb1j5^NVJb1k5]NUJc1k5]NUJc1k5]NVJb1k5]NUJc1k5]NUJc1k5]NUJc1l5\\NTJd1l5\\NUJc1l5\\NTJd1l5\\NTJd1m5[NSJe1m5[NSJe1m5[NSJe1n5ZNRJf1n5ZNRJf1o5YNQJg1o5ZNPJf1P6ZNPJf1Q6YNoIg1Q6YNoIg1R6XNnIh1R6XNnIh1R6XNnIh1S6WNmIi1S6XNlIh1U6WNjIj1V6VNjIj1V6VNiIk1X6TNgIm1Y6SNfIn1[6RNbIP2^6PN`IR2a6mM]IU2c6kM[IW2e6jMWIY2j6fMTI\\2l6dMPI`2Q7`MkHc2U7]MfHh2Z7YM`Hl2a7SMYHS3g7nLQHY3P8gLdGd3\\8`1001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O00001O001O001O00001O001O00001O001O00001O001O001O"
+    }
+  },
+  "robot": {
+    "mask": {
+      "size": [
+        480,
+        848
+      ],
+      "counts": "Q`T6>^>8J4K5M3L4M2M3N2N3M1O2O1O1N101O1O1N2ZGXNR4i1jKZNV4g1hKZNX4g1fK[NX4g1fKZNZ4g1dKZN\\4g1aK[N_4f1lJSNQM8S8g1fJVNUM4T8h1dJWNnLI09^8h1cJVNoL:^8b1_JPO`5R1[JQOe5Q1XJPOh5R1TJPOk5S1RJnNn5T1oImNQ6V1kIlNT6X1gIiNY6\\1`IfN`6c1SIaNm6j4`NgIWJY6o4eJmJ[5S5gJkJY5U5hJjJX5V5iJiJW5W5jJhJW5W5iJiJW5W5iJiJW5W5jJhJV5X5jJhJV5X5kJgJU5Y5lJfJT5Z5lJfJT5Z5mJeJS5[5nJdJS5[5mJeJS5[5nJdJR5\\5nJdJR5\\5oJcJQ5]5oJcJQ5]5PKbJP5^5PKbJP5^5QKaJo4_5QKaJo4_5RK`Jn4`5RK`Jn4`5SK_J9C_2n5YM^J2If2i5XM^J2Hg2j5XM]J1Ig2j5YM\\J0Ih2k5ZMZJNJi2l5[MXJLKj2m5\\MVJJLk2n5^ORJb0n5^OQJYL0j3o5<SJCm5<TJDl5;VJDj5<VJDj5;XJDh5;YJEg5:[JEe5;[JEe5:]JEc5:^JFb59`JF`59aJG_59bJF^59dJE]5:dJF\\59fJFZ59hJFX5:iJEW5:kJEU5:nJDR5<oJBR5>QK_Oo4a0TKVL6^1f4\\2oLaMQ3_2PM`MP3`2RM]Mo2d2QM[Mo2f2QMYMo2h2PMWMQ3j2PMTMP3l2PMTMP3m2QMPMP3P3oMQLQ2P4PNnKP2R4QNmKo1S4QNmKo1S4RNlKn1T4RNlKn1T4SNjKn1V4RNjKn1V4SNiKm1W4^40000O10000O1001O0000001O0000000000000000000000O100O100O100O1O100N2001O1O1O1O001O1O1OQM]Ea1c:_N^Ea1a:^NaEi0MRN08b:m0bEg0MeN`:d0dEWO`04_O0]:d0QGXOdN4Z:d0TGTOeN8V:c0XGROcN<T:a0ZGQOeN=Q:b0ZGQOfN=o9a0[GSOgN<m9?^GVOeN;G^ONNc9=`FJg13`N;FBLMc9:dFHg16_N8FO]9KfFIh17^N6E3\\9GiFIg1:^NR1n8lNlFHh1:`NS1i8kNoFGi1<_NT1f8iNSGFh1=`NW1a8fNWGFh1=`NZ1^8cNZGDj1b0\\NZ1\\8`NdI>jMR1a8`NeIe0dMj0g8aNeIg2[6YMdIh2\\6XMdIh2\\6XMcIi2]6WMcIi2]6WMbIc1hMPOf8^OaI_1PNnN`8C`I]1UNmN[8F`I]1YNbN@Cg8>`I\\1]N`N_OBe8b0`IZ1aN]NV89YIY1eN[NR8<[IV1l7jNWHS1i7mN_Hj0b7UOfHd0Z7[OnH=S7BUI7k6I]INd61dIF^69U4O100O1O1O1O1O100O1O1O1O1O1O1OQ^R3"
+    }
+  },
+  "relationships": {
+    "behind": [
+      [
+        1,
+        2
+      ],
+      [
+        2
+      ],
+      [],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "front": [
+      [
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      []
+    ],
+    "left": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      []
+    ],
+    "right": [
+      [],
+      [
+        0,
+        2
+      ],
+      [
+        0
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ]
+  }
+}
