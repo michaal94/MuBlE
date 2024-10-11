@@ -2,4 +2,4 @@
 
 ## Usage
 
-To use the framework, run demo scripts, please follow the [documentation](michaal94.github.io/MuBlE)
+To use the framework, run demo scripts, please follow the [documentation](https://michaal94.github.io/MuBlE)

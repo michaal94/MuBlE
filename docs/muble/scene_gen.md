@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Scene generation
-parent: CLIER
+parent: MuBlE
 nav_order: 1
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Instruction generation
-parent: CLIER
+parent: MuBlE
 nav_order: 2
 ---
 
